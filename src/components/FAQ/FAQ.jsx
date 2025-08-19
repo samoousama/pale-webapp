@@ -19,7 +19,7 @@ export default function FAQ(){
               <div className="relative">
                 <strong className="text-primary font-sora text-[32px] font-medium max-w-[150px] block leading-[40px]">Still have questions?</strong>
                 <p className="font-noto text-[18px] text-[#00000099] pt-3">Reach out to my founders anytime.</p>
-                 <Button className="mt-6 w-full !text-[#2D0F00] bg-[#FDC7AF] py-2 font-sora font-semibold text-[15px] shadow-sm mt-10 max-w-[140px] flex items-center justify-center gap-1 hover:!text-white group">
+                 <Button className="mt-6 w-full !text-[#2D0F00] !bg-[#FDC7AF] hover:!bg-primary py-2 font-sora font-semibold text-[15px] shadow-sm mt-10 max-w-[140px] flex items-center justify-center gap-1 hover:!text-white group">
                     Let's talk <img src="/arrowIcon.svg" alt="Arrow" className="group-hover:invert"/>
                 </Button>
               </div>  

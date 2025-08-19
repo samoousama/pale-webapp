@@ -64,7 +64,7 @@ export default function PricePackages() {
                             <p className="text-3xl font-sora font-bold text-primary pt-5">
                             $17 <span className="text-[12px] font-noto text-[#00000099]">/ month billed annually</span>
                             </p>
-                            <Button className="mt-6 w-full !text-[#2D0F00] bg-[#FDC7AF] border-[1px] border-[#E5E5E5] py-3 font-sora font-semibold text-[15px] shadow-sm hover:!text-white">
+                            <Button className="mt-6 w-full !text-[#2D0F00] !bg-[#FDC7AF] hover:!bg-primary border-[1px] border-[#E5E5E5] py-3 font-sora font-semibold text-[15px] shadow-sm hover:!text-white">
                                 Get a Pro Plan
                             </Button>
                             <ul className="mt-6 space-y-3 text-darktext">
