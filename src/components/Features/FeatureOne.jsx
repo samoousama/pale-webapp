@@ -1,7 +1,7 @@
 export default function FeatureOne(){
     return(
-    <div className='grid grid-cols-2 gap-10 items-center py-20 relative overflow-hidden'>
-        
+    <div className='grid grid-cols-2 gap-10 items-center py-20'>
+        <img src="/feature--1.png" className="absolute right-[-2%] mt-[-50px] opacity-[50%]" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[95px] text-center font-sora text-[14px] bg-bgdark text-white py-[2px] px-2 rounded-full'>FEATURE 1</span>

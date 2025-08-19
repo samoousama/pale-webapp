@@ -1,6 +1,7 @@
 export default function FeatureTwo(){
     return(
     <div className='grid grid-cols-2 gap-10 py-20'>
+        <img src="/feature--2.png" className="absolute left-0 mt-[-150px] opacity-[50%]" />
         <div className='relative'>
            <img src='/tracks-img.png' alt="Tracks"/>
         </div>
