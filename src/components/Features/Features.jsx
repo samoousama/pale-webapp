@@ -4,7 +4,7 @@ import FeatureThree from "./FeatureThree";
 
 export default function PaleFeatures(){
   return (
-     <div className='py-10'>
+     <div className='py-10 overflow-hidden relative'>
         <div className='container'>
           <FeatureOne />
           <FeatureTwo />
