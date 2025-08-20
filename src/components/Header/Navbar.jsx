@@ -9,7 +9,7 @@ export default function Header() {
         <Link to="/" className="text-2xl font-bold text-blue-600">
             <img src="/logo.svg" alt="Logo" className="h-8 w-auto" />
         </Link>
-        <nav className="space-x-6">
+        <nav className="space-x-6 sm:hidden">
           <Link to="/" className="text-primary font-Sora text-[16px] hover:text-accent">Features</Link>
           <Link to="/" className="text-primary font-Sora text-[16px] hover:text-accent">Real Talk</Link>
           <Link to="/" className="text-primary font-Sora text-[16px] hover:text-accent">Pricing</Link>

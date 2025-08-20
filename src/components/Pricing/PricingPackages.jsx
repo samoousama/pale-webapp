@@ -7,8 +7,8 @@ export default function PricePackages() {
         <div className="py-20 pt-40">
           <div className="container">
             <div className="text-center flex flex-col gap-2">
-                <h3 className="text-primary">Move at your pace</h3>
-                <p className="font-noto text-[18px] text-[#00000099]">Empower your team for free. Upgrade to get more of my attention. </p>
+              <h3 className="text-primary">Move at your pace</h3>
+              <p className="font-noto text-[18px] text-[#00000099]">Empower your team for free. Upgrade to get more of my attention. </p>
             </div>
             <div className="w-full pt-16">
                 <div className="table mx-auto items-center text-center justify-center bg-[#f5b8999e] rounded-[50px]">
@@ -36,7 +36,7 @@ export default function PricePackages() {
                 {/* Content area packages */}
                 <div className="relative">
                     {activeTab === "individual" && (
-                    <div className="grid grid-cols-3 gap-5 pt-14">
+                    <div className="grid grid-cols-3 gap-5 pt-14 sm:grid-cols-1">
                       <div className="rounded-[32px] border-[1px] bg-[#f5b8991a] py-12 px-7 flex flex-col gap-1">
                         <h4 className="text-primary text-[24px] font-sora font-semibold">Free</h4>
                         <p className="font-noto text-[16px] text-[#00000099]">Try Pale</p>

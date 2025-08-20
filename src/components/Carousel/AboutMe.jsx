@@ -11,7 +11,7 @@ export default function AboutMe() {
           </div>   
           <div className="relative w-full mx-auto overflow-hidden pt-10 pb-16">
             <div
-              className="flex transition-transform duration-500 pl-40 gap-6"
+              className="flex transition-transform duration-500 pl-40 gap-6 sm:pl-5"
               style={{ transform: `translateX(-${i * (100 / 3)}%)` }}>
               {/* Slide 1 */}
               <div className="basis-1/3 shrink-0 relative">
@@ -85,19 +85,19 @@ export default function AboutMe() {
               <button
                 aria-label="Previous"
                 onClick={prev}
-                className="absolute right-40 bottom-[-20px] -translate-y-1/2 w-[44px] h-[44px] rounded-full bg-[#fff6] text-white flex items-center justify-center border-[1px] border-[#E5E5E5]"
+                className="absolute right-40 sm:right-20 bottom-[-20px] -translate-y-1/2 w-[44px] h-[44px] rounded-full bg-[#fff6] text-white flex items-center justify-center border-[1px] border-[#E5E5E5]"
               >
                 <img src="/arrow-left.svg" alt="" />
               </button>
               <button
                 aria-label="Next"
                 onClick={next}
-                className="absolute right-[100px] bottom-[-20px] -translate-y-1/2 w-[44px] h-[44px] rounded-full bg-[#fff6] text-white flex items-center justify-center border-[1px] border-[#E5E5E5]"
+                className="absolute right-[100px] sm:right-[30px] bottom-[-20px] -translate-y-1/2 w-[44px] h-[44px] rounded-full bg-[#fff6] text-white flex items-center justify-center border-[1px] border-[#E5E5E5]"
               >
                 <img src="/arrow-right.svg" alt="" />
               </button>
             {/* Dots */}
-            <div className="absolute bottom-[10px] left-20 translate-x-[100px] flex gap-2">
+            <div className="absolute bottom-[10px] left-20 translate-x-[100px] flex gap-2 sm:translate-x-[20px] sm:left-2">
               <button
                 onClick={() => setI(0)}
                 className={`w-3 h-3 rounded-full ${i === 0 ? "bg-white border-[1px] border-primary" : "bg-primary"}`}

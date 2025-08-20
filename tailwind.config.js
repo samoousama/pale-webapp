@@ -20,6 +20,23 @@ module.exports = {
         noto:"var(--font-noto-serif)"
       },
     },
+    screens: {
+      'sm': {'min': '320px', 'max': '767px'},
+
+      'ms': {'min': '540px', 'max': '767px'},
+      
+      'md': {'min': '768px', 'max': '1023px'},
+      
+      'lg': {'min': '1024px', 'max': '1279px'},
+      
+      'xc': {'min': '1280px', 'max': '1398px'},
+      
+      'xl': {'min': '1280px', 'max': '1535px'},
+      
+      '2xl': {'min': '1536px'},
+      
+      '3xl': {'min': '1535px', 'max': '6500px'},
+    },
     container: {
       center: true,     
       padding: "1rem",  

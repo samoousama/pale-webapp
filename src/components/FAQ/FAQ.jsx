@@ -15,11 +15,11 @@ export default function FAQ(){
         <div className="bg-white py-16 border-t-[1px] border-[#0000001a] border-b-[1px]">
           <div className="container">
             <h3 className="text-center">Other users asked me this</h3>
-            <div className="grid grid-cols-3 pt-10 max-w-[973px] mx-auto gap-20">
-              <div className="relative">
-                <strong className="text-primary font-sora text-[32px] font-medium max-w-[150px] block leading-[40px]">Still have questions?</strong>
+            <div className="grid grid-cols-3 pt-10 max-w-[973px] mx-auto gap-20 sm:grid-cols-1 sm:max-w-[100%] sm:justify-center sm:text-center sm:gap-5">
+              <div className="relative sm:text-center">
+                <strong className="text-primary font-sora text-[32px] font-medium max-w-[150px] sm:max-w-full block leading-[40px]">Still have questions?</strong>
                 <p className="font-noto text-[18px] text-[#00000099] pt-3">Reach out to my founders anytime.</p>
-                 <Button className="mt-6 w-full !text-[#2D0F00] !bg-[#FDC7AF] hover:!bg-primary py-2 font-sora font-semibold text-[15px] shadow-sm mt-10 max-w-[140px] flex items-center justify-center gap-1 hover:!text-white group">
+                 <Button className="mt-6 w-full !text-[#2D0F00] !bg-[#FDC7AF] hover:!bg-primary py-2 font-sora font-semibold text-[15px] shadow-sm mt-10 max-w-[140px] flex items-center justify-center gap-1 hover:!text-white group sm:justify-center sm:items-center sm:mx-auto sm:mt-5">
                     Let's talk <img src="/arrowIcon.svg" alt="Arrow" className="group-hover:invert"/>
                 </Button>
               </div>  

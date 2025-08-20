@@ -1,6 +1,6 @@
 export default function FeatureThree(){
     return(
-       <div className='grid grid-cols-2 gap-10 py-20'>
+       <div className='grid grid-cols-2 gap-10 py-20 sm:grid-cols-1'>
         <img src="/jirabox-images.png" className="absolute right-[-10%] mt-[-50px] opacity-[50%]" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
