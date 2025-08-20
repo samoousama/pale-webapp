@@ -1,3 +1,4 @@
+import { useState } from "react";
 import './App.css';
 import Header from './components/Header/Navbar';
 import Button from "./components/Button/Button";
@@ -9,6 +10,14 @@ import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer/Footer';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+  const handleScroll = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false); 
+    }
+  };
   return (
     <div>
       <Header/>
@@ -24,7 +33,7 @@ function App() {
             </div>
             <h3 className='text-center text-primary sm:text-[24px] sm:leading-[33px]'>You allow the actions - I do the work</h3>
             <p className='font-noto text-[23px] text-[#00000099] sm:text-[15px]'>AI Integrations without worries.</p>
-            <Button variant="primary" onClick={() => alert("Get Started")} className="py-[11px] px-7 mt-5">
+            <Button variant="primary" onClick={() => handleScroll("pricing")} className="py-[11px] px-7 mt-5">
                 Get Started
             </Button>
           </div>  

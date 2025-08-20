@@ -4,7 +4,7 @@ import Button from "../Button/Button"
 export default function PricePackages() {
     const [activeTab, setActiveTab] = useState("individual");
     return(
-        <div className="py-20 pt-40">
+        <div className="py-20 pt-40" id="pricing">
           <div className="container">
             <div className="text-center flex flex-col gap-2">
               <h3 className="text-primary">Move at your pace</h3>

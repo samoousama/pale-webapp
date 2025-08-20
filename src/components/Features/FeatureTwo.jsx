@@ -21,6 +21,63 @@ export default function FeatureTwo(){
                 </div>
               </div>
             </div>
+            <div className="bg-[#ffffff66] py-5 border-[1px] border-[#fff] px-4 rounded-[32px] justify-between flex flex-col max-w-[270px] relative shadow-lg relative overflow-hidden backdrop-blur-sm z-40 ml-10 mt-[-10px]">
+              <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
+               <div className="dropdown relative">
+                 <a href="#" className="flex justify-between items-center">
+                  <p className="font-sora text-[11px] text-[#020203] flex gap-2"><img src="/eye-icon.svg" />Reads</p>
+                  <img src="/dropdown-icon.svg" />
+                 </a> 
+                 <div className="bg-[#78788014] rounded-[12px] py-3 px-3 my-3 mb-7">
+                   <ul>
+                     <li className="font-sora text-[12px] text-[#020203] flex justify-between items-center border-b-[1px] border-[#0000001a] pb-2">
+                      Create Contacts
+                      <div className="flex gap-1 bg-[#7878801f] px-1 py-1 rounded-[5px]">
+                        <img src="/icons8-block.svg" />
+                        <img src="/icons9-block.svg" />
+                        <img src="/icons10-block.svg" />
+                      </div>
+                     </li>
+                     <li className="font-sora text-[12px] text-[#020203] flex justify-between items-center pt-2">
+                      Delete Companies
+                      <div className="flex gap-1 bg-[#7878801f] px-1 py-1 rounded-[5px]">
+                        <img src="/icons8-block.svg" />
+                        <img src="/icons9-block.svg" />
+                        <img src="/icons10-block.svg" />
+                      </div>
+                     </li>
+                   </ul> 
+                 </div>
+               </div>
+               <div className="dropdown relative">
+                 <a href="#" className="flex justify-between items-center">
+                  <p className="font-sora text-[11px] text-[#020203] flex gap-2"><img src="/eye-icon.svg" />Changes</p>
+                  <img src="/dropdown-icon.svg" />
+                 </a> 
+                 <div className="bg-[#78788014] rounded-[12px] py-3 px-3 my-3 mb-0">
+                   <ul>
+                     <li className="font-sora text-[12px] text-[#020203] flex justify-between items-center border-b-[1px] border-[#0000001a] pb-2">
+                      View Contacts
+                      <div className="flex gap-1 bg-[#7878801f] px-1 py-1 rounded-[5px]">
+                        <img src="/checkicon-circle.svg" />
+                        <img src="/alert-icon.svg" />
+                        <img src="/icons10-block.svg" />
+                      </div>
+                     </li>
+                     <li className="font-sora text-[12px] text-[#020203] flex justify-between items-center pt-2">
+                      View Companies
+                      <div className="flex gap-1 bg-[#7878801f] px-1 py-1 rounded-[5px]">
+                        <img src="/checkicon-circle.svg" />
+                        <img src="/alert-icon.svg" />
+                        <img src="/icons10-block.svg" />
+                      </div>
+                     </li>
+                   </ul> 
+                 </div>
+               </div>
+
+
+            </div>
         </div>
         <div className='col px-5 relative pl-20 sm:px-0'>
             <div className='flex flex-col gap-2'>

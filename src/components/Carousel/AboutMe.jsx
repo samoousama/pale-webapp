@@ -5,7 +5,7 @@ export default function AboutMe() {
     const prev = () => setI((v) => (v === 0 ? 2 : v - 1));
     const next = () => setI((v) => (v === 2 ? 0 : v + 1));
     return(
-        <div className="bg-[#FFEADF] py-20">
+        <div className="bg-[#FFEADF] py-20" id="realtalk">
           <div className="container">
             <h3 className="text-primary"><strong>Real Talk</strong> about me</h3>
           </div>   
