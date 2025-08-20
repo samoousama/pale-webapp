@@ -39,9 +39,9 @@ export default function FeatureThree(){
                 <strong className="font-semibold font-sora text-[#141414]">Request</strong>
                 <img src="/json-img.svg" className="w-full my-2"/>
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center sm:gap-2">
                 <div>
-                  <div className="flex items-center bg-[#0000000f] px-5 py-2 rounded-[12px] gap-3">
+                  <div className="flex items-center bg-[#0000000f] px-5 py-2 rounded-[12px] gap-3 sm:text-[14px] sm:mt-[8px]">
                     Always Ask <img src="/arrowdown.svg" />
                   </div>
                 </div>    
