@@ -39,11 +39,15 @@ export default function FeatureThree(){
                 <strong className="font-semibold font-sora text-[#141414]">Request</strong>
                 <img src="/json-img.svg" className="w-full my-2"/>
               </div>
-              <div className="flex justify-between">
-                <div></div>    
+              <div className="flex justify-between items-center">
+                <div>
+                  <div className="flex items-center bg-[#0000000f] px-5 py-2 rounded-[12px] gap-3">
+                    Always Ask <img src="/arrowdown.svg" />
+                  </div>
+                </div>    
                 <div className="flex gap-4 pt-2">
                   <Button className="rounded-[13px] !bg-[#ffffff66] !text-primary">Skip</Button>  
-                  <Button className="bg-accent rounded-[13px] !text-primary hover:!text-white">Run</Button>  
+                  <Button className="!bg-accent rounded-[13px] !text-primary hover:!text-white">Run</Button>  
                 </div>    
               </div>
             </div>
