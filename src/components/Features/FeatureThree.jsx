@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+
 export default function FeatureThree(){
     return(
        <div className='grid grid-cols-2 gap-10 py-20 sm:grid-cols-1'>
@@ -26,8 +28,25 @@ export default function FeatureThree(){
             </div>      
         </div>
         <div className='relative'>
-            <p className="font-noto text-[18px] text-[#00000099] px-7 pb-4">Let me check your current Jira tickets...</p>
-            <img src='/jira-ticket-img.svg' alt="Jira"/>
+            <p className="font-noto text-[18px] text-[#00000099] px-2 pb-4">Let me check your current Jira tickets...</p>
+            <div className='min-w-[500px] sm:min-w-[100%] mx-auto bg-[#ffffff66] py-4 border-[1px] border-[#fff] px-5 rounded-[32px] flex flex-col backdrop-blur-sm relative overflow-hidden'>
+              <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>  
+              <div className="flex justify-between items-center">
+                <p className="font-sora text-[17px] text-[#121212]">Calling list-tickets@Jira</p>
+                <a href="" className="font-sora text-[14px] text-[#00000080] flex items-center gap-1">Request json <img src="/arrowup.svg"/></a>
+              </div>
+              <div className="pt-7">
+                <strong className="font-semibold font-sora text-[#141414]">Request</strong>
+                <img src="/json-img.svg" className="w-full my-2"/>
+              </div>
+              <div className="flex justify-between">
+                <div></div>    
+                <div className="flex gap-4 pt-2">
+                  <Button className="rounded-[13px] !bg-[#ffffff66] !text-primary">Skip</Button>  
+                  <Button className="bg-accent rounded-[13px] !text-primary hover:!text-white">Run</Button>  
+                </div>    
+              </div>
+            </div>
         </div>
     </div>   
     )
