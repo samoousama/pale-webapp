@@ -40,14 +40,15 @@ export default function FeatureThree(){
                 <img src="/json-img.svg" className="w-full my-2"/>
               </div>
               <div className="flex justify-between items-center sm:gap-2">
-                <div>
+                <div className="relative">
                   <div className="flex items-center bg-[#0000000f] px-5 py-2 rounded-[12px] gap-3 sm:text-[14px] sm:mt-[8px]">
                     Always Ask <img src="/arrowdown.svg" />
                   </div>
+                  
                 </div>    
                 <div className="flex gap-4 pt-2">
-                  <Button className="rounded-[13px] !bg-[#ffffff66] !text-primary">Skip</Button>  
-                  <Button className="!bg-accent rounded-[13px] !text-primary hover:!text-white">Run</Button>  
+                  <Button className="rounded-[13px] !bg-[#ffffff66] !text-primary shadow-md">Skip</Button>  
+                  <Button className="!bg-accent rounded-[13px] !text-primary hover:!text-white shadow-md">Run</Button>  
                 </div>    
               </div>
             </div>

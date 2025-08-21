@@ -44,8 +44,8 @@ function App() {
               <div className='flex justify-between items-center sm:gap-2'>
                 <div className='flex items-center gap-3 relative'>
                   <img src='/attherat.svg' />
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center'><img src='/github-icon.svg' />GitHub <img src='/cross-icon.svg'/></Button>
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center'><img src='/jira-icon.svg' />Jira <img src='/cross-icon.svg'/></Button>
+                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center shadow-md'><img src='/github-icon.svg' />GitHub <img src='/cross-icon.svg'/></Button>
+                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center shadow-md'><img src='/jira-icon.svg' />Jira <img src='/cross-icon.svg'/></Button>
                 </div>
                 <div className='flex justify-between items-center gap-4 sm:gap-1'>
                   <img src='/signIcon.svg' alt='' className='h-[16px]' />
@@ -61,7 +61,7 @@ function App() {
       <Fearures/>   
       <div className='relative pb-20'>
         <div className='container mx-auto'>
-          <div className='bg-[#F5B899] rounded-[24px] py-16 text-center'>
+          <div className='bg-texturebg bg-cover rounded-[24px] py-16 text-center'>
             <div className='inline-flex items-center justify-center bg-[#ffffff80] rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4'>
               <img 
                   src='/emoji.svg'

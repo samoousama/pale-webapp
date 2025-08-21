@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         herobanner: "url('../public/hero-background.svg')",
+        texturebg: "url('../public/texturebg.svg')",
       },
       colors: {
         primary: "var(--color-primary)",

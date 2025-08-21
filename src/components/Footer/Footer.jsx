@@ -17,22 +17,22 @@ export default function Footer() {
                             <h4 className="font-sora text-[12px] text-[#260f1466] uppercase tracking-[.25em]">Products</h4>  
                             <ul className="space-y-5 pt-5">
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Product Overview
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Real-Time Decision Log
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Checks & Alerts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Execution AI Agents
                                     </a>
                                 </li>
@@ -42,12 +42,12 @@ export default function Footer() {
                             <h4 className="font-sora text-[12px] text-[#260f1466] uppercase tracking-[.25em]">Resources</h4>  
                             <ul className="space-y-5 pt-5">
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Pricing
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Blog
                                     </a>
                                 </li>
@@ -59,22 +59,22 @@ export default function Footer() {
                             <h4 className="font-sora text-[12px] text-[#260f1466] uppercase tracking-[.25em]">Company</h4>  
                             <ul className="space-y-5 pt-5">
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Why Pale
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         About
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Careers
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Referral Program
                                     </a>
                                 </li>
@@ -84,12 +84,12 @@ export default function Footer() {
                             <h4 className="font-sora text-[12px] text-[#260f1466] uppercase tracking-[.25em]">Resources</h4>  
                             <ul className="space-y-5 pt-5">
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Blog
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto">
+                                    <a href="#" className="text-primary hover:text-primary transition-colors font-noto font-medium">
                                         Events
                                     </a>
                                 </li>
