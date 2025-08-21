@@ -44,12 +44,12 @@ function App() {
               <div className='flex justify-between items-center sm:gap-2'>
                 <div className='flex items-center gap-3 relative'>
                   <img src='/attherat.svg' />
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center shadow-md'><img src='/github-icon.svg' />GitHub <img src='/cross-icon.svg'/></Button>
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center shadow-md'><img src='/jira-icon.svg' />Jira <img src='/cross-icon.svg'/></Button>
+                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'><img src='/github-icon.svg' className="sm:h-[16px]" />GitHub <img src='/cross-icon.svg'/></Button>
+                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'><img src='/jira-icon.svg' className="sm:h-[16px]" />Jira <img src='/cross-icon.svg'/></Button>
                 </div>
                 <div className='flex justify-between items-center gap-4 sm:gap-1'>
                   <img src='/signIcon.svg' alt='' className='h-[16px]' />
-                  <Button className='w-[35px] h-[35px] !p-0 !flex !items-center !text-center justify-center'><img src='/buttonArrow.svg' /></Button>
+                  <Button className='w-[35px] h-[35px] !p-0 !flex !items-center !text-center justify-center !rounded-[100px]'><img src='/buttonArrow.svg' /></Button>
                 </div>
               </div>
             </div>
@@ -158,10 +158,10 @@ function App() {
       <AboutMe/>
       <PricePackages/>
       <FAQ/>
-      <div className="bg-white py-20 border-b-[1px] border-[#0000001a] border-b-[1px] relative overflow-hidden object-cover">
-        <img src='/shadowbg-img.svg' alt='' className='absolute top-0 bottom-0 left-0 right-0 mx-auto object-cover w-[100%]' />
+      <div className="bg-white py-20 border-b-[1px] border-[#0000001a] border-b-[1px] relative object-cover">
+        <img src='/shadowbg-img.svg' alt='' className='absolute top-[-250px] w-full bottom-0 left-0 right-0 mx-auto object-cover w-[100%]' />
         <div className='container mx-auto text-center'>
-          <h3 className='text-primary text-center sm:text-[31px]'>I'm ready to prove myself - <strong className='block font-semibold text-[#0000004d]'>Are you?</strong></h3>
+          <h3 className='text-primary text-center sm:text-[31px] sm:leading-[40px] sm:mb-2'>I'm ready to prove myself - <strong className='block font-semibold text-[#0000004d]'>Are you?</strong></h3>
           <Button variant="primary" onClick={() => alert("Get Started")} className="py-[11px] px-7 mt-5">
               Get Started
           </Button>          

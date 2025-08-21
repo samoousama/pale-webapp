@@ -11,9 +11,9 @@ export default function FeatureTwo(){
               <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-3 relative'>
                   <img src='/attherat.svg' />
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center'><img src='/github-icon.svg' />GitHub <img src='/cross-icon.svg'/></Button>
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center'><img src='/jira-icon.svg' />Jira <img src='/cross-icon.svg'/></Button>
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[10px] py-[5px] items-center'><img src='/sentry.svg' />Sentry <img src='/cross-icon.svg'/></Button>
+                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'><img src='/github-icon.svg' className="sm:h-[16px]" />GitHub <img src='/cross-icon.svg'/></Button>
+                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'><img src='/jira-icon.svg' className="sm:h-[16px]" />Jira <img src='/cross-icon.svg'/></Button>
+                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'><img src='/sentry.svg' className="sm:h-[16px]" />Sentry <img src='/cross-icon.svg'/></Button>
                 </div>
                 <div className='flex justify-between items-center gap-4 sm:gap-1'>
                   <img src='/signIcon.svg' alt='' className='h-[16px]' />
@@ -82,7 +82,7 @@ export default function FeatureTwo(){
         <div className='col px-5 relative pl-20 sm:px-0'>
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[95px] text-center font-sora text-[14px] bg-bgdark text-white py-[2px] px-2 rounded-full'>FEATURE 2</span>
-                <h3 className='text-primary'>Set the tracks</h3>
+                <h3 className='text-primary sm:text-[36px]'>Set the tracks</h3>
                 <p className='font-noto text-[18px] text-[#00000099] pt-2'>Don't loose focus. Prompt and permissions go together. Your tools, your rules. Stay in charge the whole way.</p> 
             </div>                
             <div className='relative py-10 flex items-center gap-4'>

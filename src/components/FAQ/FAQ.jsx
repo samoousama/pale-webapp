@@ -14,7 +14,7 @@ export default function FAQ(){
     return(
         <div className="bg-white py-16 border-t-[1px] border-[#0000001a] border-b-[1px]" id="faq">
           <div className="container">
-            <h3 className="text-center">Other users asked me this</h3>
+            <h3 className="text-center sm:text-[36px] sm:leading-[40px]">Other users asked me this</h3>
             <div className="grid grid-cols-3 pt-10 max-w-[973px] mx-auto gap-20 sm:grid-cols-1 sm:max-w-[100%] sm:justify-center sm:text-center sm:gap-5">
               <div className="relative sm:text-center">
                 <strong className="text-primary font-sora text-[32px] font-medium max-w-[150px] sm:max-w-full block leading-[40px]">Still have questions?</strong>

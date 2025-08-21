@@ -7,7 +7,7 @@ export default function FeatureThree(){
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[95px] text-center font-sora text-[14px] bg-bgdark text-white py-[2px] px-2 rounded-full'>FEATURE 3</span>
-                <h3 className='text-primary'>Stay on course</h3>
+                <h3 className='text-primary sm:text-[36px]'>Stay on course</h3>
                 <p className='font-noto text-[18px] text-[#00000099] pt-2'>With the 'Ask' permission you take command.I ask for permission, never for forgiveness. </p> 
             </div>          
             <div className="py-10 flex flex-col gap-10">
@@ -33,7 +33,7 @@ export default function FeatureThree(){
               <div className="absolute w-full h-full bg-[#0000000f] rounded-[32px] top-0 left-0"></div>  
               <div className="flex justify-between items-center">
                 <p className="font-sora text-[17px] text-[#121212]">Calling list-tickets@Jira</p>
-                <a href="" className="font-sora text-[14px] text-[#00000080] flex items-center gap-1">Request json <img src="/arrowup.svg"/></a>
+                <a href="" className="font-sora text-[14px] text-[#00000080] flex items-center gap-1 sm:text-[12px]">Request json <img src="/arrowup.svg"/></a>
               </div>
               <div className="pt-7">
                 <strong className="font-semibold font-sora text-[#141414]">Request</strong>
@@ -44,7 +44,7 @@ export default function FeatureThree(){
                   <div className="flex items-center bg-[#0000000f] px-5 py-2 rounded-[12px] gap-3 sm:text-[14px] sm:mt-[8px]">
                     Always Ask <img src="/arrowdown.svg" />
                   </div>
-                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1">
+                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px]">
                     <div className="absolute w-full h-full bg-[#0000000f] rounded-[12px] top-0 left-0"></div>  
                     <div className="bg-white rounded-[8px] py-2 px-3 flex gap-[2px] items-center justify-between relative">
                       <div>
