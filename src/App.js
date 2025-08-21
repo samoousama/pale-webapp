@@ -59,7 +59,7 @@ function App() {
       </div>
       {/* hero section end */}
       <Fearures/>   
-      <div className='relative pb-20'>
+      <div className='relative py-[100px]'>
         <div className='container mx-auto'>
           <div className='bg-texturebg bg-cover rounded-[24px] py-16 text-center'>
             <div className='inline-flex items-center justify-center bg-[#ffffff80] rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4'>
