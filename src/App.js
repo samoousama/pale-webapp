@@ -72,80 +72,80 @@ function App() {
             <h3 className='text-center mx-auto sm:text-[31px]'>I'm fluent in over <br/>
               <strong>100+</strong> Apps via MCP
             </h3>
-            <div className='flex items-center justify-center pt-10 gap-7 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-3'>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+            <div className='flex items-center justify-center pt-10 gap-7 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-3 md:grid-cols-6 md:grid md:gap-3'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/icon324.svg' 
                     alt=''
                 />
               </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/github.svg' 
                     alt=''
                 />
               </div>     
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/Vector10.svg' 
                     alt=''
                 />
               </div>                           
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/Microsoft_Azure1.svg' 
                     alt=''
                 />
               </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/Amazon_icon.svg' 
                     alt=''
                 />
               </div>                              
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/googlecloud.svg' 
                     alt=''
                 />
               </div>                              
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/firebase.svg' 
                     alt=''
                 />
               </div>                           
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/googleanalytics.svg' 
                     alt=''
                 />
               </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/snapchat.svg' 
                     alt=''
                 />
               </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/linearIcon.svg' 
                     alt=''
                 />
               </div>                             
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/clickup1.svg' 
                     alt=''
                 />
               </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/Frame30934.svg' 
                     alt=''
                 />
               </div>                             
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125'>
+              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
                 <img 
                     src='/app-icon/Vectors21.svg' 
                     alt=''
@@ -159,7 +159,7 @@ function App() {
       <PricePackages/>
       <FAQ/>
       <div className="bg-white py-20 border-b-[1px] border-[#0000001a] border-b-[1px] relative object-cover">
-        <img src='/shadowbg-img.svg' alt='' className='absolute top-[-250px] w-full bottom-0 left-0 right-0 mx-auto object-cover w-[100%]' />
+        <img src='/shadowbg-img.svg' alt='' className='absolute top-[-250px] w-full bottom-0 left-0 right-0 mx-auto object-cover w-[100%] sm:top-[0px]' />
         <div className='container mx-auto text-center'>
           <h3 className='text-primary text-center sm:text-[31px] sm:leading-[40px] sm:mb-2'>I'm ready to prove myself - <strong className='block font-semibold text-[#0000004d]'>Are you?</strong></h3>
           <Button variant="primary" onClick={() => alert("Get Started")} className="py-[11px] px-7 mt-5">

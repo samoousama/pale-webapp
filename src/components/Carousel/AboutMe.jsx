@@ -17,7 +17,7 @@ export default function AboutMe() {
 
       <div className="relative w-full mx-auto overflow-hidden pt-10 pb-16">
         <div
-          className="flex transition-transform duration-500 pl-40 gap-6 sm:pl-5"
+          className="flex transition-transform duration-500 pl-40 gap-6 sm:pl-5 md:pl-10"
           style={{
             transform: `translateX(-${
               i * (100 / (window.innerWidth < 640 ? 1 : 3))
@@ -33,15 +33,15 @@ export default function AboutMe() {
                 className="object-cover w-full h-[355px]"
               />
               <div className="bg-white py-5 px-5 gap-5 flex flex-col">
-                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3">
+                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3 md:text-[16px]">
                   Thanks to Pale, we're uncovering new leads we never could have
                   found through traditional legal channels.
                 </p>
                 <div>
-                  <strong className="font-semibold block font-sora text-[16px] text-primary">
+                  <strong className="font-semibold block font-sora text-[16px] text-primary md:text-[15px]">
                     Alex Chen
                   </strong>
-                  <span className="font-noto text-[14px] text-[#00000099]">
+                  <span className="font-noto text-[14px] text-[#00000099] md:text-[14px]">
                     Operations Director
                   </span>
                 </div>
@@ -56,15 +56,15 @@ export default function AboutMe() {
                 className="object-cover w-full h-[355px]"
               />
               <div className="bg-white py-5 px-5 gap-5 flex flex-col">
-                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3">
+                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3 md:text-[16px]">
                   Running in Founder Mode is challenging enough without a truly
                   great project management app.
                 </p>
                 <div>
-                  <strong className="font-semibold block font-sora text-[16px] text-primary">
+                  <strong className="font-semibold block font-sora text-[16px] text-primary md:text-[15px]">
                     Ben Carter
                   </strong>
-                  <span className="font-noto text-[14px] text-[#00000099]">
+                  <span className="font-noto text-[14px] text-[#00000099] md:text-[14px]">
                     Marketing Lead
                   </span>
                 </div>
@@ -79,15 +79,15 @@ export default function AboutMe() {
                 className="object-cover w-full h-[355px]"
               />
               <div className="bg-white py-5 px-5 gap-5 flex flex-col">
-                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3">
+                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3 md:text-[16px]">
                   Founder Mode is tough—having an exceptional project management
                   app makes all the difference.
                 </p>
                 <div>
-                  <strong className="font-semibold block font-sora text-[16px] text-primary">
+                  <strong className="font-semibold block font-sora text-[16px] text-primary md:text-[15px]">
                     Cameron Wil
                   </strong>
-                  <span className="font-noto text-[14px] text-[#00000099]">
+                  <span className="font-noto text-[14px] text-[#00000099] md:text-[14px]">
                     Product Manager
                   </span>
                 </div>
