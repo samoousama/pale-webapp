@@ -11,7 +11,7 @@ export default function PricePackages() {
               <p className="font-noto text-[18px] text-[#00000099]">Empower your team for free. Upgrade to get more of my attention. </p>
             </div>
             <div className="w-full pt-16">
-                <div className="table mx-auto items-center text-center justify-center bg-[#f5b8999e] rounded-[50px]">
+                <div className="table mx-auto items-center text-center justify-center bg-[#f5b8994d] rounded-[50px]">
                     <button
                     onClick={() => setActiveTab("individual")}
                     className={`px-6 py-3 text-sm font-medium transition rounded-full ${

@@ -29,8 +29,8 @@ export default function FeatureThree(){
         </div>
         <div className='relative'>
             <p className="font-noto text-[18px] text-[#00000099] px-2 pb-4">Let me check your current Jira tickets...</p>
-            <div className='min-w-[500px] sm:min-w-[100%] mx-auto bg-[#ffffff66] py-4 border-[1px] border-[#fff] px-5 rounded-[32px] flex flex-col backdrop-blur-sm relative overflow-hidden'>
-              <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>  
+            <div className='min-w-[500px] sm:min-w-[100%] mx-auto bg-[#ffffff66] py-4 border-[1px] border-[#fff] px-5 rounded-[32px] flex flex-col backdrop-blur-sm relative'>
+              <div className="absolute w-full h-full bg-[#0000000f] rounded-[32px] top-0 left-0"></div>  
               <div className="flex justify-between items-center">
                 <p className="font-sora text-[17px] text-[#121212]">Calling list-tickets@Jira</p>
                 <a href="" className="font-sora text-[14px] text-[#00000080] flex items-center gap-1">Request json <img src="/arrowup.svg"/></a>
@@ -44,7 +44,22 @@ export default function FeatureThree(){
                   <div className="flex items-center bg-[#0000000f] px-5 py-2 rounded-[12px] gap-3 sm:text-[14px] sm:mt-[8px]">
                     Always Ask <img src="/arrowdown.svg" />
                   </div>
-                  
+                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1">
+                    <div className="absolute w-full h-full bg-[#0000000f] rounded-[12px] top-0 left-0"></div>  
+                    <div className="bg-white rounded-[8px] py-2 px-3 flex gap-[2px] items-center justify-between relative">
+                      <div>
+                        <h4 className="text-primary font-normal text-[14px] font-sora">Always Ask </h4>
+                        <p className="text-[13px] font-normal font-sora text-[#00000080]">Your approval is required every time</p>
+                      </div>
+                      <img src="/checkicon.svg" />
+                    </div>
+                    <div className="bg-white rounded-[8px] py-2 px-3 flex gap-[2px] items-center justify-between mt-2 relative">
+                      <div>
+                        <h4 className="text-primary font-normal text-[14px] font-sora">Always Allow </h4>
+                        <p className="text-[13px] font-normal font-sora text-[#00000080]">Your approval is not required</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>    
                 <div className="flex gap-4 pt-2">
                   <Button className="rounded-[13px] !bg-[#ffffff66] !text-primary shadow-md">Skip</Button>  
