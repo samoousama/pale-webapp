@@ -6,7 +6,7 @@ export default function FeatureOne(){
         <img src="/feature--1.png" className="absolute right-[-2%] mt-[-50px] opacity-[50%]" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
-                <span className='max-w-[95px] text-center font-sora text-[14px] bg-bgdark text-white py-[2px] px-2 rounded-full font-normal'>FEATURE 1</span>
+                <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full font-normal'>FEATURE 1</span>
                 <h3 className='text-primary font-normal text-[48px] sm:text-[36px] leading-[40px]'>Choose your tools</h3>
                 <p className='font-noto text-[18px] text-[#00000099] pt-2'>Need to be the one in charge? Add tools with a simple <br/> @mention. By default, I read, but must ask to make changes.</p> 
             </div>                
@@ -40,7 +40,7 @@ export default function FeatureOne(){
             </div>
         </div>
         <div className='relative'>
-            <div className="bg-[#ffffff66] py-3 border-[1px] border-[#fff] px-2 rounded-[32px] justify-between flex flex-col max-w-[250px] mx-auto relative shadow-lg relative overflow-hidden backdrop-blur-sm z-40">
+            <div className="bg-[#ffffff66] py-3 border-[1px] border-[#fff] px-2 rounded-[22px] justify-between flex flex-col max-w-[250px] mx-auto relative shadow-lg relative overflow-hidden backdrop-blur-sm z-40">
               <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
                <ul className="space-y-1 relative">
                 <li className="flex justify-between items-center py-3 px-3 rounded-full pt-2">
@@ -71,7 +71,7 @@ export default function FeatureOne(){
                   </div>  
                   
                 </li>
-                <li className="flex justify-between items-center py-3 bg-[#0000001a] px-3 rounded-full">
+                <li className="flex justify-between items-center py-3 bg-[#0000001a] px-3 rounded-[16px]">
                   <div className="font-sora text-primary text-[15px] flex gap-2 items-center">
                     <img src="/sentry.svg" alt=""/>
                     Sentry

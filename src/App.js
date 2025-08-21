@@ -33,7 +33,7 @@ function App() {
             </div>
             <h3 className='text-center text-primary sm:text-[24px] sm:leading-[33px]'>You allow the actions - I do the work</h3>
             <p className='font-noto text-[23px] text-[#00000099] sm:text-[15px]'>AI Integrations without worries.</p>
-            <Button variant="primary" onClick={() => handleScroll("pricing")} className="py-[11px] px-7 mt-5">
+            <Button variant="primary" onClick={() => handleScroll("pricing")} className="py-[16px] px-[32px] mt-5">
                 Get Started
             </Button>
           </div>  
@@ -162,7 +162,7 @@ function App() {
         <img src='/shadowbg-img.svg' alt='' className='absolute top-[-250px] w-full bottom-0 left-0 right-0 mx-auto object-cover w-[100%] sm:top-[0px]' />
         <div className='container mx-auto text-center'>
           <h3 className='text-primary text-center sm:text-[31px] sm:leading-[40px] sm:mb-2'>I'm ready to prove myself - <strong className='block font-semibold text-[#0000004d]'>Are you?</strong></h3>
-          <Button variant="primary" onClick={() => alert("Get Started")} className="py-[11px] px-7 mt-5">
+          <Button variant="primary" onClick={() => alert("Get Started")} className="py-[16px] px-[32px] mt-5 !text-[18px]">
               Get Started
           </Button>          
         </div>

@@ -6,22 +6,22 @@ export default function FeatureThree(){
         <img src="/jirabox-images.png" className="absolute right-[-10%] mt-[-120px] opacity-[50%]" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
-                <span className='max-w-[95px] text-center font-sora text-[14px] bg-bgdark text-white py-[2px] px-2 rounded-full'>FEATURE 3</span>
+                <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full'>FEATURE 3</span>
                 <h3 className='text-primary sm:text-[36px]'>Stay on course</h3>
-                <p className='font-noto text-[18px] text-[#00000099] pt-2'>With the 'Ask' permission you take command.I ask for permission, never for forgiveness. </p> 
+                <p className='font-noto text-[18px] text-[#00000099] pt-2'>With the 'Ask' permission you take command. <br/> I ask for permission, never for forgiveness. </p> 
             </div>          
             <div className="py-10 flex flex-col gap-10">
                 <div className='flex items-center gap-4'>
                     <img src="/reveal-icon.svg"/>      
                     <div className="relative">
-                        <span className="flex items-center gap-1">Raise the curtain</span>
+                        <span className="flex items-center font-sora text-[18px] gap-1 font-normal">Raise the curtain</span>
                         <p className="font-noto text-[16px] text-[#00000099]">Reveal the request parameters.</p>
                     </div>
                 </div>      
                 <div className='flex items-center gap-4'>
                     <img src="/skip-icon.svg"/>      
                     <div className="relative">
-                        <span className="flex items-center gap-1">Run or Skip</span>
+                        <span className="flex items-center font-sora text-[18px] gap-1 font-normal">Run or Skip</span>
                         <p className="font-noto text-[16px] text-[#00000099]">To make sure we're on the same track.</p>
                     </div>
                 </div>                           
@@ -32,8 +32,8 @@ export default function FeatureThree(){
             <div className='min-w-[500px] sm:min-w-[100%] md:min-w-[100%] mx-auto bg-[#ffffff66] py-4 border-[1px] border-[#fff] px-5 rounded-[32px] flex flex-col backdrop-blur-sm relative'>
               <div className="absolute w-full h-full bg-[#0000000f] rounded-[32px] top-0 left-0"></div>  
               <div className="flex justify-between items-center">
-                <p className="font-sora text-[17px] text-[#121212] md:text-[14px]">Calling list-tickets@Jira</p>
-                <a href="" className="font-sora text-[14px] text-[#00000080] flex items-center gap-1 sm:text-[12px] md:text-[13px]">Request json <img src="/arrowup.svg"/></a>
+                <p className="font-sora text-[16px] text-[#121212] font-normal md:text-[14px]">Calling list-tickets@Jira</p>
+                <a href="" className="font-sora text-[13px] text-[#00000080] font-normal flex items-center gap-1 sm:text-[12px] md:text-[13px]">Request json <img src="/arrowup.svg"/></a>
               </div>
               <div className="pt-7">
                 <strong className="font-semibold font-sora text-[#141414] md:text-[14px]">Request</strong>
@@ -41,10 +41,10 @@ export default function FeatureThree(){
               </div>
               <div className="flex justify-between items-center sm:gap-2">
                 <div className="relative md:mt-[10px]">
-                  <div className="flex items-center bg-[#0000000f] px-5 py-2 rounded-[12px] gap-3 sm:text-[14px] sm:mt-[8px] md:text-[14px]">
+                  <div className="flex items-center bg-[#f0f0f0] px-5 py-2 rounded-[12px] gap-3 text-[15px] sm:text-[14px] sm:mt-[8px] md:text-[14px] border-[0.5px] border-white">
                     Always Ask <img src="/arrowdown.svg" />
                   </div>
-                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px] md:w-[230px] md:mt-[10px]">
+                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px] md:w-[230px] md:mt-[10px] backdrop-blur-sm shadow-lg">
                     <div className="absolute w-full h-full bg-[#0000000f] rounded-[12px] top-0 left-0"></div>  
                     <div className="bg-white rounded-[8px] py-2 px-3 flex gap-[2px] items-center justify-between relative">
                       <div>
@@ -62,8 +62,8 @@ export default function FeatureThree(){
                   </div>
                 </div>    
                 <div className="flex gap-4 pt-2">
-                  <Button className="rounded-[13px] !bg-[#ffffff66] !text-primary shadow-md md:!text-[12px]">Skip</Button>  
-                  <Button className="!bg-accent rounded-[13px] !text-primary hover:!text-white shadow-md md:!text-[12px]">Run</Button>  
+                  <Button className="!rounded-[12px] !bg-[#ffffff66] !text-primary shadow-md md:!text-[12px] !px-[17px] !py-[9px] border-[1px] border-white">Skip</Button>  
+                  <Button className="!bg-accent !rounded-[12px] !text-primary hover:!text-white shadow-md md:!text-[12px]">Run</Button>  
                 </div>    
               </div>
             </div>

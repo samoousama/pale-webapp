@@ -18,10 +18,10 @@ export default function Header() {
           <img src="/logo.svg" alt="Logo" className="h-8 w-auto" />
         </Link>
         <nav className="sm:flex space-x-6 sm:hidden">
-          <Link to="/" onClick={() => handleScroll("features")} className="text-primary font-Sora text-[16px] hover:text-accent">Features</Link>
-          <Link to="/" onClick={() => handleScroll("realtalk")} className="text-primary font-Sora text-[16px] hover:text-accent">Real Talk</Link>
-          <Link to="/" onClick={() => handleScroll("pricing")} className="text-primary font-Sora text-[16px] hover:text-accent">Pricing</Link>
-          <Link to="/" onClick={() => handleScroll("faq")} className="text-primary font-Sora text-[16px] hover:text-accent">FAQ</Link>
+          <Link to="#features" onClick={() => handleScroll("features")} className="text-primary font-Sora text-[16px] font-normal hover:text-accent">Features</Link>
+          <Link to="#realtalk" onClick={() => handleScroll("realtalk")} className="text-primary font-Sora text-[16px] font-normal hover:text-accent">Real Talk</Link>
+          <Link to="#pricing" onClick={() => handleScroll("pricing")} className="text-primary font-Sora text-[16px] font-normal hover:text-accent">Pricing</Link>
+          <Link to="#faq" onClick={() => handleScroll("faq")} className="text-primary font-Sora text-[16px] font-normal hover:text-accent">FAQ</Link>
         </nav>
         <div className="flex items-center space-x-4">
           <Button variant="primary" onClick={() => handleScroll("pricing")}>

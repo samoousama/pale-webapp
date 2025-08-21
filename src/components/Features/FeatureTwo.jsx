@@ -79,7 +79,7 @@ export default function FeatureTwo(){
         </div>
         <div className='col px-5 relative pl-20 sm:px-0 md:pl-0'>
             <div className='flex flex-col gap-2'>
-                <span className='max-w-[95px] text-center font-sora text-[14px] bg-bgdark text-white py-[2px] px-2 rounded-full'>FEATURE 2</span>
+                <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full'>FEATURE 2</span>
                 <h3 className='text-primary sm:text-[36px]'>Set the tracks</h3>
                 <p className='font-noto text-[18px] text-[#00000099] pt-2'>Don't loose focus. Prompt and permissions go together. Your tools, your rules. Stay in charge the whole way.</p> 
             </div>                
