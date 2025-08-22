@@ -81,7 +81,7 @@ export default function FeatureTwo(){
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full'>FEATURE 2</span>
                 <h3 className='text-primary sm:text-[36px]'>Set the tracks</h3>
-                <p className='font-noto text-[18px] text-[#00000099] pt-2'>Don't loose focus. Prompt and permissions go together. Your tools, your rules. Stay in charge the whole way.</p> 
+                <p className='font-noto text-[18px] text-[#00000099] pt-2'>Don't lose focus. Prompt and permissions go together. Your tools, your rules. Stay in charge the whole way.</p> 
             </div>                
             
             <div className='relative py-10 flex items-center gap-4'>
