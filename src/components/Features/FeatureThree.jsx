@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 export default function FeatureThree(){
     return(
        <div className='grid grid-cols-2 gap-10 py-20 sm:grid-cols-1'>
-        <img src="/jirabox-images.png" className="absolute right-[-10%] mt-[-120px] opacity-[50%]" />
+        <img src="/jirabox-images.png" className="absolute right-[-5%] mt-[-120px] opacity-[57%]" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full'>FEATURE 3</span>
@@ -27,7 +27,7 @@ export default function FeatureThree(){
                 </div>                           
             </div>      
         </div>
-        <div className='relative'>
+        <div className='relative pb-20'>
             <p className="font-noto text-[18px] text-[#00000099] px-2 pb-4 md:text-[14px]">Let me check your current Jira tickets...</p>
             <div className='min-w-[500px] sm:min-w-[100%] md:min-w-[100%] mx-auto bg-[#ffffff66] py-4 border-[1px] border-[#fff] px-5 rounded-[32px] flex flex-col backdrop-blur-sm relative'>
               <div className="absolute w-full h-full bg-[#0000000f] rounded-[32px] top-0 left-0"></div>  
@@ -37,7 +37,18 @@ export default function FeatureThree(){
               </div>
               <div className="pt-7">
                 <strong className="font-semibold font-sora text-[#141414] md:text-[14px]">Request</strong>
-                <div className="bg-[#EFEFEF] h-[135px] rounded-[14px] my-[8px] mt-[5px]">
+                <div className="bg-[#EFEFEF] h-[150px] rounded-[14px] my-[8px] mt-[5px]">
+                  <div className="font-sora text-black font-normal text-[11px] bg-[#DCDCDC] w-[41px] py-[2px] px-[8px] text-center rounded-tl-[4px] rounded-br-[4px]">
+                    json
+                  </div>
+                  <div className="py-4 px-6">
+                    <span className="text-[#53B559] text-[15px] font-mono">&#123;</span>
+                    <div className="px-4">
+                      <p className="text-[#53B559] text-[15px] font-mono">"limit" <span className="text-[#2E89FF] pr-1">:</span> <span className="text-[#E6755D]">10</span>,</p>
+                      <p className="text-[#53B559] text-[15px] font-mono">"orderBy" <span className="text-[#2E89FF] pr-1">:</span> <span className="text-[#E6755D]">updatedAt</span></p>
+                    </div>
+                    <span className="text-[#53B559] text-[15px] font-mono">&#125;</span>
+                  </div>
                 </div>
               </div>
               <div className="flex justify-between items-center sm:gap-2">
@@ -45,7 +56,7 @@ export default function FeatureThree(){
                   <div className="flex items-center bg-[#f0f0f0] px-5 py-2 rounded-[12px] gap-3 text-[15px] sm:text-[14px] sm:mt-[8px] md:text-[14px] border-[0.5px] border-white">
                     Always Ask <img src="/arrowdown.svg" />
                   </div>
-                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px] md:w-[230px] md:mt-[10px] backdrop-blur-sm shadow-[-4px_27px_25px_-8px_rgba(217,_217,_217,_0.65)]">
+                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px] md:w-[230px] md:mt-[10px] backdrop-blur-sm shadow-[0px_26px_36px_0px_rgba(0,_0,_2,_0.15)]">
                     <div className="absolute w-full h-full bg-[#0000000f] rounded-[12px] top-0 left-0"></div>  
                     <div className="bg-white rounded-[8px] py-2 px-3 flex gap-[2px] items-center justify-between relative">
                       <div>

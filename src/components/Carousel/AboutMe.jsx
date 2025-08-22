@@ -19,7 +19,7 @@ export default function AboutMe() {
   return (
     <div className="bg-[#FFEADF] py-20" id="realtalk">
       <div className="container">
-        <h3 className="text-primary">
+        <h3 className="text-primary sm:text-[34px]">
           <strong>Real Talk</strong> about me
         </h3>
       </div>
@@ -35,7 +35,7 @@ export default function AboutMe() {
           {slides.map((_, idx) => (
             <div
               key={idx}
-              className="basis-1/3 shrink-0 sm:basis-full relative"
+              className="basis-1/3 shrink-0 sm:basis-[33%] relative"
             >
               <div
                 className={`bg-primary rounded-[24px] overflow-hidden border-[7px] ${

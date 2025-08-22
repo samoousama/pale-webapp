@@ -18,7 +18,8 @@ module.exports = {
       },
       fontFamily: {
         sora: "var(--font-sora)",
-        noto:"var(--font-noto-serif)"
+        noto:"var(--font-noto-serif)",
+        mono:"var(--font-space-mono)",
       },
     },
     screens: {

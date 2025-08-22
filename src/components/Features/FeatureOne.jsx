@@ -79,9 +79,9 @@ export default function FeatureOne(){
                 </li>                
                </ul> 
             </div>
-            <div className='min-w-[500px] sm:min-w-[100%] md:min-w-[100%] mx-auto bg-[#ffffff66] py-2 pb-4 border-[1px] border-[#fff] px-5 rounded-[32px] justify-between flex flex-col h-[150px] shadow-lg mt-[-15px] backdrop-blur-sm relative overflow-hidden'>
+            <div className='min-w-[500px] sm:min-w-[100%] md:min-w-[100%] mx-auto bg-[#ffffff66] py-2 pb-4 border-[1px] border-[#fff] px-5 rounded-[32px] justify-between flex flex-col min-h-[150px] sm:min-h-[150px] shadow-lg mt-[-15px] backdrop-blur-sm relative overflow-hidden'>
                 <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
-                <textarea name="" placeholder='look what I did since yesterdayon @github. update me about &#10; @Jira. fetch new issues on @' className='w-full py-2 placeholder-black bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none md:text-[12px]'></textarea>
+                <textarea name="" placeholder='look what I did since yesterdayon @github. update me about &#10; @Jira. fetch new issues on @' className='w-full sm:min-h-[100px] py-2 placeholder-black bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none md:text-[12px]'></textarea>
                 <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-3 relative'>
                     <img src='/attherat.svg' />
