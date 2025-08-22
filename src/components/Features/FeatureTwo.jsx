@@ -83,6 +83,7 @@ export default function FeatureTwo(){
                 <h3 className='text-primary sm:text-[36px]'>Set the tracks</h3>
                 <p className='font-noto text-[18px] text-[#00000099] pt-2'>Don't loose focus. Prompt and permissions go together. Your tools, your rules. Stay in charge the whole way.</p> 
             </div>                
+            
             <div className='relative py-10 flex items-center gap-4'>
               <img src="/prompt-icon.svg"/>      
               <div className="relative">
