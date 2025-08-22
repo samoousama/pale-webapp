@@ -2,7 +2,7 @@ import Button from "../Button/Button"
 
 export default function FeatureOne(){
     return(
-    <div className='grid grid-cols-2 gap-10 items-center py-20 sm:grid-cols-1'>
+    <div className='grid grid-cols-2 gap-10 items-center py-20 sm:grid-cols-1 sm:py-10'>
         <img src="/feature--1.png" className="absolute right-[-2%] mt-[-50px] opacity-[50%]" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
@@ -39,7 +39,7 @@ export default function FeatureOne(){
                 </ul>
             </div>
         </div>
-        <div className='relative'>
+        <div className='relative sm:hidden'>
             <div className="bg-[#ffffff66] py-3 border-[1px] border-[#fff] px-2 rounded-[22px] justify-between flex flex-col max-w-[250px] mx-auto relative shadow-lg relative overflow-hidden backdrop-blur-sm z-40">
               <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
                <ul className="space-y-1 relative">
@@ -94,6 +94,9 @@ export default function FeatureOne(){
                 </div>
                 </div>
             </div> 
+        </div>
+        <div className="hidden sm:block md:hidden">
+          <img src="/mobileview-img.png" alt="" className="sm:w-full sm:object-cover"/>
         </div>
     </div>        
     )
