@@ -37,14 +37,15 @@ export default function FeatureThree(){
               </div>
               <div className="pt-7">
                 <strong className="font-semibold font-sora text-[#141414] md:text-[14px]">Request</strong>
-                <img src="/json-img.svg" className="w-full my-2"/>
+                <div className="bg-[#EFEFEF] h-[135px] rounded-[14px] my-[8px] mt-[5px]">
+                </div>
               </div>
               <div className="flex justify-between items-center sm:gap-2">
                 <div className="relative md:mt-[10px]">
                   <div className="flex items-center bg-[#f0f0f0] px-5 py-2 rounded-[12px] gap-3 text-[15px] sm:text-[14px] sm:mt-[8px] md:text-[14px] border-[0.5px] border-white">
                     Always Ask <img src="/arrowdown.svg" />
                   </div>
-                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px] md:w-[230px] md:mt-[10px] backdrop-blur-sm shadow-lg">
+                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px] md:w-[230px] md:mt-[10px] backdrop-blur-sm shadow-[-4px_27px_25px_-8px_rgba(217,_217,_217,_0.65)]">
                     <div className="absolute w-full h-full bg-[#0000000f] rounded-[12px] top-0 left-0"></div>  
                     <div className="bg-white rounded-[8px] py-2 px-3 flex gap-[2px] items-center justify-between relative">
                       <div>
@@ -62,8 +63,8 @@ export default function FeatureThree(){
                   </div>
                 </div>    
                 <div className="flex gap-4 pt-2">
-                  <Button className="!rounded-[12px] !bg-[#ffffff66] !text-primary shadow-md md:!text-[12px] !px-[17px] !py-[9px] border-[1px] border-white">Skip</Button>  
-                  <Button className="!bg-accent !rounded-[12px] !text-primary hover:!text-white shadow-md md:!text-[12px]">Run</Button>  
+                  <Button className="!rounded-[12px] !bg-[#ffffff66] !text-primary !text-[15px] shadow-md md:!text-[12px] !px-[16px] !py-[7px] border-[0.5px] border-white">Skip</Button>  
+                  <Button className="!bg-accent !rounded-[13px] !text-primary hover:!text-white !text-[15px] shadow-md !px-[16px] !py-[7px] md:!text-[12px]">Run</Button>  
                 </div>    
               </div>
             </div>

@@ -32,7 +32,7 @@ export default function FeatureTwo(){
                    <ul>
                      <li className="font-sora text-[12px] text-[#020203] flex justify-between items-center border-b-[1px] border-[#0000001a] pb-2">
                       Create Contacts
-                      <div className="flex gap-1 bg-[#7878801f] px-1 py-1 rounded-[5px]">
+                      <div className="flex gap-[1.7] bg-[#7878801f] p-[1.7px] rounded-[6px]">
                         <img src="/icons8-block.svg" />
                         <img src="/icons9-block.svg" />
                         <img src="/icons10-block.svg" />
@@ -40,7 +40,7 @@ export default function FeatureTwo(){
                      </li>
                      <li className="font-sora text-[12px] text-[#020203] flex justify-between items-center pt-2">
                       Delete Companies
-                      <div className="flex gap-1 bg-[#7878801f] px-1 py-1 rounded-[5px]">
+                      <div className="flex gap-[1.7] bg-[#7878801f] p-[1.7px] rounded-[6px]">
                         <img src="/icons8-block.svg" />
                         <img src="/icons9-block.svg" />
                         <img src="/icons10-block.svg" />
@@ -58,7 +58,7 @@ export default function FeatureTwo(){
                    <ul>
                      <li className="font-sora text-[12px] text-[#020203] flex justify-between items-center border-b-[1px] border-[#0000001a] pb-2">
                       View Contacts
-                      <div className="flex gap-1 bg-[#7878801f] px-1 py-1 rounded-[5px]">
+                      <div className="flex gap-[1.7] bg-[#7878801f] p-[1.7px] rounded-[6px]">
                         <img src="/checkicon-circle.svg" />
                         <img src="/alert-icon.svg" />
                         <img src="/icons10-block.svg" />
@@ -66,7 +66,7 @@ export default function FeatureTwo(){
                      </li>
                      <li className="font-sora text-[12px] text-[#020203] flex justify-between items-center pt-2">
                       View Companies
-                      <div className="flex gap-1 bg-[#7878801f] px-1 py-1 rounded-[5px]">
+                      <div className="flex gap-[1.7] bg-[#7878801f] p-[1.7px] rounded-[6px]">
                         <img src="/checkicon-circle.svg" />
                         <img src="/alert-icon.svg" />
                         <img src="/icons10-block.svg" />

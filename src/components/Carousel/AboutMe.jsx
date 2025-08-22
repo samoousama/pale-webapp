@@ -1,11 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function AboutMe() {
   const [i, setI] = useState(0);
-  const slides = [0, 1, 2]; 
+  const [isMobile, setIsMobile] = useState(false);
+
+  const slides = [0, 1, 2];
 
   const prev = () => setI((v) => (v === 0 ? slides.length - 1 : v - 1));
   const next = () => setI((v) => (v === slides.length - 1 ? 0 : v + 1));
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 640);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <div className="bg-[#FFEADF] py-20" id="realtalk">
@@ -19,81 +28,60 @@ export default function AboutMe() {
         <div
           className="flex transition-transform duration-500 pl-40 gap-6 sm:pl-5 md:pl-10"
           style={{
-            transform: `translateX(-${
-              i * (100 / (window.innerWidth < 640 ? 1 : 3))
-            }%)`,
-            width: `${slides.length * (100 / (window.innerWidth < 640 ? 1 : 3))}%`,
+            transform: `translateX(-${i * (100 / (isMobile ? 1 : 3))}%)`,
+            width: `${slides.length * (100 / (isMobile ? 1 : 3))}%`,
           }}
         >
-          <div className="basis-1/3 shrink-0 sm:basis-full relative">
-            <div className="bg-primary rounded-[24px] overflow-hidden border-[7px] border-[#F5B899]">
-              <img
-                src="/alex-userimage.svg"
-                alt=""
-                className="object-cover w-full h-[355px]"
-              />
-              <div className="bg-white py-5 px-5 gap-5 flex flex-col">
-                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3 md:text-[16px]">
-                  Thanks to Pale, we're uncovering new leads we never could have
-                  found through traditional legal channels.
-                </p>
-                <div>
-                  <strong className="font-semibold block font-sora text-[16px] text-primary md:text-[15px]">
-                    Alex Chen
-                  </strong>
-                  <span className="font-noto text-[14px] text-[#00000099] md:text-[14px]">
-                    Operations Director
-                  </span>
+          {slides.map((_, idx) => (
+            <div
+              key={idx}
+              className="basis-1/3 shrink-0 sm:basis-full relative"
+            >
+              <div
+                className={`bg-primary rounded-[24px] overflow-hidden border-[7px] ${
+                  i === idx ? "border-black" : "border-[#F5B899]"
+                }`}
+              >
+                <img
+                  src={
+                    idx === 0
+                      ? "/alex-userimage.svg"
+                      : idx === 1
+                      ? "/bencarter-image.svg"
+                      : "/Victoria-Smith-image.svg"
+                  }
+                  alt=""
+                  className="object-cover w-full h-[355px]"
+                />
+                <div className="bg-white py-5 px-5 gap-5 flex flex-col">
+                  <p className="font-sora text-[24px] text-[#09090B] line-clamp-3 md:text-[16px]">
+                    {idx === 0 &&
+                      "Thanks to Pale, we're uncovering new leads we never could have found through traditional legal channels."}
+                    {idx === 1 &&
+                      "Running in Founder Mode is challenging enough without a truly great project management app."}
+                    {idx === 2 &&
+                      "Founder Mode is tough—having an exceptional project management app makes all the difference."}
+                  </p>
+                  <div>
+                    <strong className="font-semibold block font-sora text-[16px] text-primary md:text-[15px]">
+                      {idx === 0
+                        ? "Alex Chen"
+                        : idx === 1
+                        ? "Ben Carter"
+                        : "Cameron Wil"}
+                    </strong>
+                    <span className="font-noto text-[14px] text-[#00000099] md:text-[14px]">
+                      {idx === 0
+                        ? "Operations Director"
+                        : idx === 1
+                        ? "Marketing Lead"
+                        : "Product Manager"}
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="basis-1/3 shrink-0 sm:basis-full">
-            <div className="bg-primary rounded-[24px] overflow-hidden border-[7px] border-[#F5B899]">
-              <img
-                src="/bencarter-image.svg"
-                alt=""
-                className="object-cover w-full h-[355px]"
-              />
-              <div className="bg-white py-5 px-5 gap-5 flex flex-col">
-                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3 md:text-[16px]">
-                  Running in Founder Mode is challenging enough without a truly
-                  great project management app.
-                </p>
-                <div>
-                  <strong className="font-semibold block font-sora text-[16px] text-primary md:text-[15px]">
-                    Ben Carter
-                  </strong>
-                  <span className="font-noto text-[14px] text-[#00000099] md:text-[14px]">
-                    Marketing Lead
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="basis-1/3 shrink-0 sm:basis-full">
-            <div className="bg-primary rounded-[24px] overflow-hidden border-[7px] border-[#F5B899]">
-              <img
-                src="/Victoria-Smith-image.svg"
-                alt=""
-                className="object-cover w-full h-[355px]"
-              />
-              <div className="bg-white py-5 px-5 gap-5 flex flex-col">
-                <p className="font-sora text-[24px] text-[#09090B] line-clamp-3 md:text-[16px]">
-                  Founder Mode is tough—having an exceptional project management
-                  app makes all the difference.
-                </p>
-                <div>
-                  <strong className="font-semibold block font-sora text-[16px] text-primary md:text-[15px]">
-                    Cameron Wil
-                  </strong>
-                  <span className="font-noto text-[14px] text-[#00000099] md:text-[14px]">
-                    Product Manager
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
 
         <div className="container">

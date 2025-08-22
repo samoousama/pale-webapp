@@ -7,7 +7,7 @@ export default function FeatureOne(){
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full font-normal'>FEATURE 1</span>
-                <h3 className='text-primary font-normal text-[48px] sm:text-[36px] leading-[40px]'>Choose your tools</h3>
+                <h3 className='text-primary font-normal text-[48px] sm:text-[36px] leading-[40px] mt-[10px]'>Choose your tools</h3>
                 <p className='font-noto text-[18px] text-[#00000099] pt-2'>Need to be the one in charge? Add tools with a simple <br/> @mention. By default, I read, but must ask to make changes.</p> 
             </div>                
             {/* how it work */}
