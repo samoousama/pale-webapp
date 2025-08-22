@@ -103,16 +103,16 @@ export default function Footer() {
           </div>  
           <div className="py-6">
             <div className="container">
-              <div className="flex items-center gap-20 relative sm:gap-5">
+              <div className="flex items-center gap-20 relative sm:gap-5 sm:flex-col sm:text-center">
                  <p className="font-noto text-[12px] text-[#00000099]">© Pale 2025. All rights reserved.</p>
                  <ul className="space-x-5 flex pl-20 sm:pl-0">
                     <li>
-                        <a href="#" className="text-primary hover:text-primary transition-colors font-noto text-[12px] sm:text-[10px]">
+                        <a href="#" className="text-primary hover:text-primary transition-colors font-noto text-[12px] sm:text-[12px]">
                             Privacy Policy
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="text-primary hover:text-primary transition-colors font-noto text-[12px] sm:text-[10px]">
+                        <a href="#" className="text-primary hover:text-primary transition-colors font-noto text-[12px] sm:text-[12px]">
                             Terms of Service
                         </a>
                     </li>

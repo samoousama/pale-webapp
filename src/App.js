@@ -45,7 +45,7 @@ function App() {
           <div className='text-center mx-auto inline-flex flex-col justify-center pt-24'>
             <div className='min-w-[645px] sm:min-w-[100%] mx-auto bg-[#ffffff66] py-5 border-[0.5px] px-5 rounded-[32px] border-white justify-between flex flex-col min-h-[150px] relative overflow-hidden backdrop-blur-sm shadow-lg'>
              <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
-              <textarea name="" placeholder='Create a draft pull request on @GitHub for my ticket on @Jira' className='w-full py-2 placeholder-black bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none'></textarea>
+              <div className='w-full py-2 placeholder-black text-left bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none'>Create a draft pull request on @GitHub for my ticket on @Jira</div>
               <div className='flex justify-between items-center sm:gap-2'>
                 <div className='flex items-center gap-3 relative'>
                   <img src='/attherat.svg' />

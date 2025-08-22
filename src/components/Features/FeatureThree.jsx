@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 
 export default function FeatureThree(){
     return(
-       <div className='grid grid-cols-2 gap-10 py-20 sm:grid-cols-1'>
+       <div className='grid grid-cols-2 gap-10 py-20 sm:grid-cols-1  sm:py-10'>
         <img src="/jirabox-images.png" className="absolute right-[-5%] mt-[-120px] opacity-[57%]" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
