@@ -94,7 +94,7 @@ export default function FeatureTwo(){
                 <p className="font-noto text-[16px] text-[#00000099]">For every prompt you choose the permissions.</p>
               </div>
             </div>
-        </div>
+        </div> 
     </div>   
     )
 }
