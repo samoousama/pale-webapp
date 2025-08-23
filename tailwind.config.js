@@ -21,6 +21,15 @@ module.exports = {
         noto:"var(--font-noto-serif)",
         mono:"var(--font-space-mono)",
       },
+       keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 25s linear infinite", 
+      },
     },
     screens: {
       'sm': {'min': '320px', 'max': '767px'},

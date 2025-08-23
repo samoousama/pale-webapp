@@ -32,13 +32,24 @@ h3{
 }
 @keyframes marquee-x {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } /* shift by half (since we duplicated) */
+  100% { transform: translateX(-50%); }
 }
+
 .marquee-track {
   width: max-content;
+  display: flex;
   animation: marquee-x 22s linear infinite;
+  will-change: transform;
 }
-@media (min-width: 640px) {
+@media (min-width: 1024px) {
+  .marquee-track { animation-duration: 28s; }
+}
+@media (hover:hover) and (pointer:fine) {
+  .marquee:hover .marquee-track {
+    animation-play-state: paused;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
   .marquee-track {
     animation: none;
     transform: none;

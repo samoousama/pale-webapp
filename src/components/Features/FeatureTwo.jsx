@@ -3,11 +3,11 @@ import Button from "../Button/Button"
 export default function FeatureTwo(){
     return(
     <div className='grid grid-cols-2 gap-10 py-20 sm:grid-cols-1 sm:flex-col-reverse'>
-        <img src="/feature--2.png" className="absolute left-0 mt-[-150px] opacity-[50%]" />
+        <img src="/featureTwo.webp" className="absolute left-0 mt-[-150px] opacity-[50%]" />
         <div className='relative'>
            <div className='min-w-[450px] sm:min-w-[100%] md:min-w-[100%] mx-auto bg-[#ffffff66] py-5 border-[1px] border-[#fff] px-5 rounded-[32px] justify-between flex flex-col min-h-[150px] sm:min-h-[250px] relative overflow-hidden backdrop-blur-sm shadow-lg'>
              <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
-              <div className='w-full text-left py-2 placeholder-black bg-transparent sm:min-h-[180px] border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none'>look what i did since yesterday on @GitHub. update me about @Jira. fetch new issues on @Sentry. Suggest to me what to work on Today.</div>
+              <div className='w-full text-left py-2 placeholder-black bg-transparent sm:min-h-[180px] border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none'>look what i did since yesterday on <b>@GitHub</b>. update me about <b>@Jira</b>. fetch new issues on <b>@Sentry</b>. Suggest to me what to work on Today.</div>
               <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-3 relative'>
                   <img src='/attherat.svg' />

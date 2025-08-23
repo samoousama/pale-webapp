@@ -3,7 +3,7 @@ import Button from "../Button/Button"
 export default function FeatureOne(){
     return(
     <div className='grid grid-cols-2 gap-10 items-center py-20 sm:grid-cols-1 sm:py-10'>
-        <img src="/feature--1.png" className="absolute right-[-2%] mt-[-50px] opacity-[50%]" />
+        <img src="/featureOne.webp" className="absolute right-[-2%] mt-[-50px] opacity-[50%]" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full font-normal'>FEATURE 1</span>
@@ -81,7 +81,7 @@ export default function FeatureOne(){
             </div>
             <div className='min-w-[500px] sm:min-w-[100%] md:min-w-[100%] mx-auto bg-[#ffffff66] py-2 pb-4 border-[1px] border-[#fff] px-5 rounded-[32px] justify-between flex flex-col min-h-[150px] sm:min-h-[150px] shadow-lg mt-[-15px] backdrop-blur-sm relative overflow-hidden'>
                 <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
-                <div className='w-full sm:min-h-[100px] py-2 placeholder-black bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none md:text-[12px]'>look what I did since yesterdayon @github. update me about <br/> &#10; @Jira. fetch new issues on @</div>
+                <div className='w-full sm:min-h-[100px] py-2 placeholder-black bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none md:text-[12px]'>look what I did since yesterdayon <b>@github</b>. update me about <br/> &#10; <b>@Jira</b>. fetch new issues on <b>@</b></div>
                 <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-3 relative'>
                     <img src='/attherat.svg' />
@@ -96,7 +96,7 @@ export default function FeatureOne(){
             </div> 
         </div>
         <div className="hidden sm:block md:hidden">
-          <img src="/mobileview-img.png" alt="" className="sm:w-full sm:object-cover"/>
+          <img src="/CardImage.webp" alt="" className="sm:w-full sm:object-cover"/>
         </div>
     </div>        
     )

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useState } from "react";
 import './App.css';
 import Header from './components/Header/Navbar';
@@ -10,6 +11,14 @@ import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer/Footer';
 
 function App() {
+   useEffect(() => {
+    document.title = "Pale - AI Integrations without worries";
+    const link = document.querySelector("link[rel='icon']") || document.createElement("link");
+    link.rel = "icon";
+    link.type = "image/png";
+    link.href = "/logo.svg"; 
+    document.head.appendChild(link);
+  }, []);
   const [isOpen, setIsOpen] = useState(false);
   const handleScroll = (id) => {
     const section = document.getElementById(id);
@@ -45,7 +54,7 @@ function App() {
           <div className='text-center mx-auto inline-flex flex-col justify-center pt-24'>
             <div className='min-w-[645px] sm:min-w-[100%] mx-auto bg-[#ffffff66] py-5 border-[0.5px] px-5 rounded-[32px] border-white justify-between flex flex-col min-h-[150px] relative overflow-hidden backdrop-blur-sm shadow-lg'>
              <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
-              <div className='w-full py-2 placeholder-black text-left bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none'>Create a draft pull request on @GitHub for my ticket on @Jira</div>
+              <div className='w-full py-2 placeholder-black text-left bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none'>Create a draft pull request on <b>@GitHub</b> for my ticket on <b>@Jira</b></div>
               <div className='flex justify-between items-center sm:gap-2'>
                 <div className='flex items-center gap-3 relative'>
                   <img src='/attherat.svg' />
@@ -77,88 +86,8 @@ function App() {
             <h3 className='text-center mx-auto sm:text-[31px] sm:leading-[38px]'>I'm fluent in over <br/>
               <strong>100+</strong> Apps via MCP
             </h3>
-            <div className='flex items-center justify-center pt-10 gap-7 sm:grid sm:grid-cols-4 sm:gap-4 sm:px-3 md:grid-cols-6 md:grid md:gap-3 sm:hidden'>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/icon324.svg' 
-                    alt=''
-                />
-              </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/github.svg' 
-                    alt=''
-                />
-              </div>     
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/Vector10.svg' 
-                    alt=''
-                />
-              </div>                           
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/Microsoft_Azure1.svg' 
-                    alt=''
-                />
-              </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/Amazon_icon.svg' 
-                    alt=''
-                />
-              </div>                              
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/googlecloud.svg' 
-                    alt=''
-                />
-              </div>                              
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/firebase.svg' 
-                    alt=''
-                />
-              </div>                           
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/googleanalytics.svg' 
-                    alt=''
-                />
-              </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/snapchat.svg' 
-                    alt=''
-                />
-              </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/linearIcon.svg' 
-                    alt=''
-                />
-              </div>                             
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/clickup1.svg' 
-                    alt=''
-                />
-              </div>
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/Frame30934.svg' 
-                    alt=''
-                />
-              </div>                             
-              <div className='bg-white w-[60px] h-[60px] rounded-full border-[1px] border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125 md:mx-auto'>
-                <img 
-                    src='/app-icon/Vectors21.svg' 
-                    alt=''
-                />
-              </div>                                                                                                                                                                        
-            </div>
-            <div className="block hidden overflow-hidden sm:block sm:my-[15px]">
-              <div className="marquee-track flex items-center gap-7 will-change-transform">
+            <div className="marquee overflow-hidden w-full py-5 pb-2">
+              <div className="marquee-track flex items-center gap-7">
                 {icons.map((icon, i) => (
                   <div
                     key={`a-${i}`}
@@ -187,7 +116,7 @@ function App() {
       <div className="bg-white py-20 border-b-[1px] border-[#0000001a] border-b-[1px] relative object-cover">
         <img src='/shadowbg-img.svg' alt='' className='absolute top-[-250px] w-full bottom-0 left-0 right-0 mx-auto object-cover w-[100%] sm:top-[0px]' />
         <div className='container mx-auto text-center'>
-          <h3 className='text-primary text-center sm:text-[31px] sm:leading-[40px] sm:mb-2'>I'm ready to prove myself - <strong className='block font-semibold text-[#0000004d]'>Are you?</strong></h3>
+          <h3 className='text-primary text-center sm:text-[22px] sm:leading-[40px] sm:mb-2'>I'm ready to prove myself - <strong className='block font-semibold text-[#0000004d]'>Are you?</strong></h3>
           <Button variant="primary" onClick={() => alert("Get Started")} className="py-[16px] px-[32px] mt-5 !text-[18px]">
               Get Started
           </Button>          

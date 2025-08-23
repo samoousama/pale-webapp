@@ -5,10 +5,13 @@ export default function AboutMe() {
   const [isMobile, setIsMobile] = useState(false);
 
   const slides = [0, 1, 2];
-
   const prev = () => setI((v) => (v === 0 ? slides.length - 1 : v - 1));
   const next = () => setI((v) => (v === slides.length - 1 ? 0 : v + 1));
 
+  useEffect(() => {
+    const interval = setInterval(next, 4000);
+    return () => clearInterval(interval);
+  }, []);
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
     handleResize();
@@ -35,7 +38,7 @@ export default function AboutMe() {
           {slides.map((_, idx) => (
             <div
               key={idx}
-              className="basis-1/3 shrink-0 sm:basis-[33%] relative"
+              className="basis-1/3 shrink-0 sm:basis-1/3 relative"
             >
               <div
                 className={`bg-primary rounded-[24px] overflow-hidden border-[7px] ${
@@ -83,7 +86,6 @@ export default function AboutMe() {
             </div>
           ))}
         </div>
-
         <div className="container">
           <button
             aria-label="Previous"
@@ -99,6 +101,7 @@ export default function AboutMe() {
           >
             <img src="/arrow-right.svg" alt="" />
           </button>
+          {/* Dots */}
           <div className="absolute bottom-[10px] left-20 translate-x-[100px] flex gap-2 sm:translate-x-[20px] sm:left-2">
             {slides.map((_, idx) => (
               <button

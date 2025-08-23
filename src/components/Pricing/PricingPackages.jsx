@@ -7,7 +7,7 @@ export default function PricePackages() {
         <div className="py-20 pt-40" id="pricing">
           <div className="container">
             <div className="text-center flex flex-col gap-2">
-              <h3 className="text-primary">Move at your pace</h3>
+              <h3 className="text-primary sm:text-[35px]">Move at your pace</h3>
               <p className="font-noto text-[18px] text-[#00000099]">Empower your team for free. Upgrade to get more of my attention. </p>
             </div>
             <div className="w-full pt-16">
