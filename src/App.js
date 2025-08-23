@@ -181,7 +181,7 @@ function App() {
           </div>
         </div>
       </div>
-      <AboutMe/>
+      {/* <AboutMe/> */}
       <PricePackages/>
       <FAQ/>
       <div className="bg-white py-20 border-b-[1px] border-[#0000001a] border-b-[1px] relative object-cover">
