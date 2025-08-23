@@ -10,6 +10,8 @@ import PricePackages from './components/Pricing/PricingPackages';
 import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer/Footer';
 
+export const SIGNUP_FORM_LINK = "https://2fdzq6.share-eu1.hsforms.com/2pm4BhnAMQDSLDUgaF_OnAg"
+
 function App() {
    useEffect(() => {
     document.title = "Pale - AI Integrations without worries";
@@ -47,9 +49,11 @@ function App() {
             </div>
             <h3 className='text-center text-primary sm:text-[24px] sm:leading-[33px]'>You allow the actions - I do the work</h3>
             <p className='font-noto text-[23px] text-[#00000099] sm:text-[15px]'>AI Integrations without worries.</p>
-            <Button variant="primary" onClick={() => handleScroll("pricing")} className="py-[16px] px-[32px] mt-5">
-                Get Started
-            </Button>
+            <a href={SIGNUP_FORM_LINK} target="_blank">
+              <Button variant="primary" className="py-[16px] px-[32px] mt-5">
+                  Sign up to waitlist
+              </Button>
+            </a>
           </div>  
           <div className='text-center mx-auto inline-flex flex-col justify-center pt-24'>
             <div className='min-w-[645px] sm:min-w-[100%] mx-auto bg-[#ffffff66] py-5 border-[0.5px] px-5 rounded-[32px] border-white justify-between flex flex-col min-h-[150px] relative overflow-hidden backdrop-blur-sm shadow-lg'>
@@ -110,16 +114,18 @@ function App() {
           </div>
         </div>
       </div>
-      <AboutMe/>
+      {/* <AboutMe/> */}
       <PricePackages/>
       <FAQ/>
       <div className="bg-white py-20 border-b-[1px] border-[#0000001a] border-b-[1px] relative object-cover">
         <img src='/shadowbg-img.svg' alt='' className='absolute top-[-250px] w-full bottom-0 left-0 right-0 mx-auto object-cover w-[100%] sm:top-[0px]' />
         <div className='container mx-auto text-center'>
-          <h3 className='text-primary text-center sm:text-[22px] sm:leading-[40px] sm:mb-2'>I'm ready to prove myself - <strong className='block font-semibold text-[#0000004d]'>Are you?</strong></h3>
-          <Button variant="primary" onClick={() => alert("Get Started")} className="py-[16px] px-[32px] mt-5 !text-[18px]">
-              Get Started
-          </Button>          
+          <h3 className='text-primary text-center sm:text-[31px] sm:leading-[40px] sm:mb-2'>I'm ready to prove myself - <strong className='block font-semibold text-[#0000004d]'>Are you?</strong></h3>
+          <a href={SIGNUP_FORM_LINK} target="_blank">
+            <Button variant="primary" className="py-[16px] px-[32px] mt-5 !text-[18px]">
+                Sign up to waitlist
+            </Button>          
+          </a>
         </div>
       </div>
       <Footer/>

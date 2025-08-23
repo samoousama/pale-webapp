@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
+import { SIGNUP_FORM_LINK } from "../../App";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,9 +25,11 @@ export default function Header() {
           <Link to="#faq" onClick={() => handleScroll("faq")} className="text-primary font-Sora text-[16px] font-normal hover:text-accent">FAQ</Link>
         </nav>
         <div className="flex items-center space-x-4">
-          <Button variant="primary" onClick={() => handleScroll("pricing")}>
-            Get Started
-          </Button>
+          <a href={SIGNUP_FORM_LINK} target="_blank">
+            <Button variant="primary">
+                Sign up to waitlist
+            </Button>
+          </a>
           <button
             className="hidden p-2 rounded-md hover:bg-gray-100 sm:block"
             onClick={() => setIsOpen(!isOpen)}
