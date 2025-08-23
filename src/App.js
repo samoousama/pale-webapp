@@ -9,7 +9,7 @@ import PricePackages from './components/Pricing/PricingPackages';
 import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer/Footer';
 
-const SIGNUP_FORM_LINK = "https://2fdzq6.share-eu1.hsforms.com/2pm4BhnAMQDSLDUgaF_OnAg"
+export const SIGNUP_FORM_LINK = "https://2fdzq6.share-eu1.hsforms.com/2pm4BhnAMQDSLDUgaF_OnAg"
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

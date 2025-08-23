@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
+import { SIGNUP_FORM_LINK } from "../../App";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
