@@ -3,7 +3,7 @@ import Button from "../Button/Button"
 export default function FeatureOne(){
     return(
     <div className='grid grid-cols-2 gap-10 items-center py-20 sm:grid-cols-1 sm:py-10'>
-        <img src="/feature--1.png" className="absolute right-[-2%] mt-[-50px] opacity-[50%]" />
+        <img src="/feature--1.png" className="absolute right-[-2%] mt-[-50px] opacity-[50%] -z-10" />
         <div className='col px-5 relative'>
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full font-normal'>FEATURE 1</span>
