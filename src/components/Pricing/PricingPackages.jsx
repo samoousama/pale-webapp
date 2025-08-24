@@ -95,7 +95,7 @@ export default function PricePackages() {
                       For everyday productivity
                     </p>
                     <p className='text-3xl font-sora font-bold text-primary pt-5'>
-                      $17{' '}
+                      $25{' '}
                       <span className='text-[12px] font-noto text-[#00000099]'>
                         / month billed annually
                       </span>
