@@ -25,7 +25,7 @@ export default function Header() {
           <Link to="#faq" onClick={() => handleScroll("faq")} className="text-primary font-Sora text-[16px] font-normal hover:text-accent">FAQ</Link>
         </nav>
         <div className="flex items-center space-x-4">
-          <a href={SIGNUP_FORM_LINK} target="_blank">
+          <a href={SIGNUP_FORM_LINK + "?utm_source=website&utm_medium=navbar&utm_campaign=signup"} target="_blank">
             <Button variant="primary">
                 Sign up to waitlist
             </Button>
