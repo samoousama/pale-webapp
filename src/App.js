@@ -13,22 +13,6 @@ import Footer from './components/Footer/Footer';
 export const SIGNUP_FORM_LINK = "https://2fdzq6.share-eu1.hsforms.com/2pm4BhnAMQDSLDUgaF_OnAg"
 
 function App() {
-   useEffect(() => {
-    document.title = "Pale - AI Integrations without worries";
-    const link = document.querySelector("link[rel='icon']") || document.createElement("link");
-    link.rel = "icon";
-    link.type = "image/png";
-    link.href = "/logo.svg"; 
-    document.head.appendChild(link);
-  }, []);
-  const [isOpen, setIsOpen] = useState(false);
-  const handleScroll = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false); 
-    }
-  };
    const icons = [
     "icon324.svg","github.svg","Vector10.svg","Microsoft_Azure1.svg",
     "Amazon_icon.svg","googlecloud.svg","firebase.svg","googleanalytics.svg",
