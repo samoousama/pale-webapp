@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "../Button/Button"
+import { SIGNUP_FORM_LINK } from "../../App";
 
 const faqs = [
   { question: "What workflows can I automate with AI?", answer: "You can automate repetitive workflows such as document processing, email handling, and data entry with AI." },
@@ -19,9 +20,11 @@ export default function FAQ(){
               <div className="relative sm:text-center">
                 <strong className="text-primary font-sora text-[32px] font-medium max-w-[150px] sm:max-w-full block leading-[40px]">Still have questions?</strong>
                 <p className="font-noto text-[18px] text-[#00000099] pt-3">Reach out to my founders anytime.</p>
-                 <Button className="mt-6 w-full !text-[#2D0F00] !bg-[#FDC7AF] hover:!bg-primary py-2 font-sora font-semibold text-[15px] shadow-sm mt-10 max-w-[150px] !px-[25px] flex items-center justify-center gap-1 hover:!text-white group sm:justify-center sm:items-center sm:mx-auto sm:mt-5 py-[12px] relative z-40">
+                 <a href={SIGNUP_FORM_LINK} target="_blank">
+                  <Button className="mt-6 w-full !text-[#2D0F00] !bg-[#FDC7AF] hover:!bg-primary py-2 font-sora font-semibold text-[15px] shadow-sm mt-10 max-w-[150px] !px-[25px] flex items-center justify-center gap-1 hover:!text-white group sm:justify-center sm:items-center sm:mx-auto sm:mt-5 py-[12px] relative z-40">
                     Let's talk <img src="/arrowIcon.svg" alt="Arrow" className="group-hover:invert"/>
-                </Button>
+                  </Button>
+                </a>
               </div>  
               <div className="col-span-2">
                <div className="w-full mx-auto relative z-40">
