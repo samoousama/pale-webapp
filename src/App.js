@@ -32,7 +32,7 @@ function App() {
               It's Pale here!
             </div>
             <h3 className='text-center text-primary sm:text-[24px] sm:leading-[33px]'>You allow the actions - I do the work</h3>
-            <p className='font-noto text-[23px] text-[#00000099] sm:text-[15px]'>AI Integrations without worries.</p>
+            <p className='font-noto text-[23px] text-[#00000099] sm:text-[15px]'>AI agents without worries.</p>
             <a href={SIGNUP_FORM_LINK} target="_blank">
               <Button variant="primary" className="py-[16px] px-[32px] mt-5">
                   Sign up to waitlist
