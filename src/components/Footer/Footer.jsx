@@ -2,19 +2,19 @@ export default function Footer() {
   return (
     <div className='overflow-hidden relative'>
       {/* <img src='/shadowbg-img.svg' alt='' className='absolute top-0 bottom-0 object-cover' /> */}
-      <div className='py-16 pb-20 border-b-[1px] border-[#0000001a] border-b-[1px] relative overflow-hidden'>
+      <div className='py-16 pb-20 border-b-[1px] border-black10 border-b-[1px] relative overflow-hidden'>
         <div className='container'>
           <div className='grid grid-cols-3 justify-between sm:grid-cols-1'>
             <div className='logo sm:text-center sm:flex sm:justify-center sm:mb-5'>
               <a href='/'>
-                <img src='/logo.svg' alt='Logo' />
+                <img src='/Logo.svg' alt='Logo' />
               </a>
             </div>
             <div className='col-span-2'>
               <div className='flex gap-16 justify-between sm:gap-10 sm:flex-col'>
                 <div className='flex gap-16'>
                   <div className='relative'>
-                    <h4 className='font-sora text-[12px] text-[#260f1466] uppercase tracking-[.25em]'>
+                    <h4 className='font-sora text-[12px] text-combinationsColor uppercase tracking-[.25em]'>
                       Products
                     </h4>
                     <ul className='space-y-5 pt-5'>
@@ -53,7 +53,7 @@ export default function Footer() {
                     </ul>
                   </div>
                   <div className='relative'>
-                    <h4 className='font-sora text-[12px] text-[#260f1466] uppercase tracking-[.25em]'>
+                    <h4 className='font-sora text-[12px] text-combinationsColor uppercase tracking-[.25em]'>
                       Resources
                     </h4>
                     <ul className='space-y-5 pt-5'>
@@ -78,7 +78,7 @@ export default function Footer() {
                 </div>
                 <div className='flex gap-16 w-full'>
                   <div className='relative'>
-                    <h4 className='font-sora text-[12px] text-[#260f1466] uppercase tracking-[.25em]'>
+                    <h4 className='font-sora text-[12px] text-combinationsColor uppercase tracking-[.25em]'>
                       Company
                     </h4>
                     <ul className='space-y-5 pt-5'>
@@ -125,7 +125,7 @@ export default function Footer() {
                     </ul>
                   </div>
                   {/* <div className='relative'>
-                    <h4 className='font-sora text-[12px] text-[#260f1466] uppercase tracking-[.25em]'>
+                    <h4 className='font-sora text-[12px] text-combinationsColor uppercase tracking-[.25em]'>
                       Resources
                     </h4>
                     <ul className='space-y-5 pt-5'>
@@ -156,7 +156,7 @@ export default function Footer() {
       <div className='py-6'>
         <div className='container'>
           <div className='flex items-center gap-20 relative sm:gap-5 sm:flex-col sm:text-center'>
-            <p className='font-noto text-[12px] text-[#00000099]'>
+            <p className='font-noto text-[12px] text-black40'>
               © Pale 2025. All rights reserved.
             </p>
             <ul className='space-x-5 flex pl-20 sm:pl-0'>

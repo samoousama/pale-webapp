@@ -17,6 +17,26 @@
   --color-accent:#FDC7AF; 
   --color-dark:#542208;
   --bg-dark:#2D0F00;
+  --textcolor:#2D0F00;
+  --bg-primary40:#f5b89966;
+  --black40:#00000099;
+  --white40:#ffffff66;
+  --black6:#0000000f;
+  --black50:#00000080;
+  --black10:#0000001a;
+  --gray40:#d9d9d966;
+  --darkgray:#020203;
+  --gray8:#78788014;
+  --iconbg:#7878801f;
+  --numberCircle:#F5B899;
+  --chineseBlack:#121212;
+  --hexgray8:#141414;
+  --darkgrayish:#53B559;
+  --grayscale:#EFEFEF;
+  --gainsboro:#DCDCDC;
+  --combinationsColor:#260f1466;
+  --Gray90:#E5E5E5;
+  --WhiteSmoke:#f5b8991a;
 
 }
 body {
