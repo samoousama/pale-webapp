@@ -14,9 +14,9 @@ export const SIGNUP_FORM_LINK = "https://2fdzq6.share-eu1.hsforms.com/2pm4BhnAMQ
 
 function App() {
    const icons = [
-    "icon324.svg","github.svg","Vector10.svg","Microsoft_Azure1.svg",
-    "Amazon_icon.svg","googlecloud.svg","firebase.svg","googleanalytics.svg",
-    "snapchat.svg","linearIcon.svg","clickup1.svg","Frame30934.svg","Vectors21.svg",
+    "McpIcon.svg","Github.svg","Supabase.svg","MicrosoftAzure.svg",
+    "AmazonIcon.svg","GoogleCloud.svg","Firebase.svg","GoogleAnalytics.svg",
+    "Snapchat.svg","LinearIcon.svg","ClickUp.svg","MegaMenu.svg","NotionIcon.svg",
   ];
   return (
     <div>
@@ -24,15 +24,16 @@ function App() {
       <div className="bg-herobanner bg-cover bg-center relative py-5 text-center pt-20 pb-0">
         <div className='container max-auto'>
           <div className='flex-inline flex-col text-center '>
-            <div className='inline-flex items-center justify-center bg-[#f5b89966] rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4 sm:mb-1'>
+            <div className='inline-flex items-center justify-center bg-bgprimary40 rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4 sm:mb-1'>
               <img 
-                  src='/emoji.svg'
+                  src='/EmojiIcon.svg'
+                  alt="Emoji Icon"
                   className='relative top-[5px]'
               />
               It's Pale here!
             </div>
             <h3 className='text-center text-primary sm:text-[24px] sm:leading-[33px]'>You allow the actions - I do the work</h3>
-            <p className='font-noto text-[23px] text-[#00000099] sm:text-[15px]'>AI agents without worries.</p>
+            <p className='font-noto text-[23px] text-black40 sm:text-[15px]'>AI agents without worries.</p>
             <a href={SIGNUP_FORM_LINK} target="_blank">
               <Button variant="primary" className="py-[16px] px-[32px] mt-5">
                   Sign up to waitlist
@@ -41,7 +42,7 @@ function App() {
           </div>  
           <div className='text-center mx-auto inline-flex flex-col justify-center pt-24'>
             <ChatInput/>
-            <img src='/hero-img.svg' />
+            <img src='/HeroImg.svg' alt="Hero Img" />
           </div>
         </div>
       </div>
@@ -52,7 +53,8 @@ function App() {
           <div className='bg-texturebg bg-cover rounded-[24px] py-16 text-center'>
             <div className='inline-flex items-center justify-center bg-[#ffffff80] rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4'>
               <img 
-                  src='/emoji.svg'
+                  src='/EmojiIcon.svg'
+                  alt="Emoji Icon"
                   className='relative top-[5px]'
               />
               Hook me up without headache
@@ -67,7 +69,7 @@ function App() {
                     key={`a-${i}`}
                     className="bg-white w-[60px] h-[60px] rounded-full border border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125"
                   >
-                    <img src={`/app-icon/${icon}`} alt="" />
+                    <img src={`/app-icon/${icon}`} alt="Icon" />
                   </div>
                 ))}
                 {icons.map((icon, i) => (
@@ -76,7 +78,7 @@ function App() {
                     className="bg-white w-[60px] h-[60px] rounded-full border border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125"
                     aria-hidden="true"
                   >
-                    <img src={`/app-icon/${icon}`} alt="" />
+                    <img src={`/app-icon/${icon}`} alt="Icon" />
                   </div>
                 ))}
               </div>
