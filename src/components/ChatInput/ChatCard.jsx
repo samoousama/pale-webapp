@@ -11,7 +11,7 @@ function ChatInput({
   return (
     <>
       {showDropdown && (
-        <div className="bg-white40 py-3 border-[1px] border-white px-2 rounded-[22px] justify-between flex flex-col max-w-[250px] mx-auto relative shadow-lg overflow-hidden backdrop-blur-sm z-40">
+        <div className="bg-white40 py-3 border-[1px] border-white px-2 rounded-[22px] justify-between flex flex-col max-w-[250px] mx-auto relative shadow-lg overflow-hidden backdrop-blur-sm z-40 top-[30px]">
           <div className="absolute w-full h-full bg-black6 top-0 left-0"></div>
           <ul className="space-y-1 relative">
             <li className="flex justify-between items-center py-3 px-3 rounded-full pt-2">

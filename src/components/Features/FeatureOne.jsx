@@ -44,6 +44,7 @@ export default function FeatureOne(){
            <ChatInput
               placeholderText={<>look what I did since yesterdayon <b>@github</b>. update me about <b>@Jira</b>. fetch new issues on <b>@</b></>}
               showDropdown={true}
+              className="!min-w-[543px] sm:!min-w-[100%]" 
            /> 
         </div>
         <div className="hidden sm:block md:hidden">

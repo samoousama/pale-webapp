@@ -9,7 +9,7 @@ export default function FeatureTwo(){
            <ChatInput
             placeholderText={<>look what i did since yesterday on <b>@GitHub</b>. update me about <b>@Jira</b>. fetch new issues on <b>@Sentry</b>. Suggest to me what to work on Today.</>}
             showSuggest={true}
-            className="min-w-[600px] sm:min-w-[100%]"
+            className="!min-w-[600px] sm:!min-w-[100%]"
            />
         </div>
         <div className='col px-5 relative pl-20 sm:px-0 md:pl-0'>

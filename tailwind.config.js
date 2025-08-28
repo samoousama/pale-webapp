@@ -15,7 +15,7 @@ module.exports = {
         accent: "var(--color-accent)",
         darktext:"var(--color-dark)",
         bgdark:"var(--bg-dark)",
-        bgprimary40:"var(--bg-bgprimary40)",
+        primary40:"var(--primary40)",
         black40:"var(--black40)",
         white40:"var(--white40)",
         black6:"var(--black6)",

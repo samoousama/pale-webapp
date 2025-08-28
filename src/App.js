@@ -24,7 +24,7 @@ function App() {
       <div className="bg-herobanner bg-cover bg-center relative py-5 text-center pt-20 pb-0">
         <div className='container max-auto'>
           <div className='flex-inline flex-col text-center '>
-            <div className='inline-flex items-center justify-center bg-bgprimary40 rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4 sm:mb-1'>
+            <div className='inline-flex items-center justify-center bg-primary40 rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4 sm:mb-1'>
               <img 
                   src='/EmojiIcon.svg'
                   alt="Emoji Icon"
