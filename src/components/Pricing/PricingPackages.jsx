@@ -12,7 +12,7 @@ export default function PricePackages() {
           <h3 className='text-primary sm:text-[35px]'>
             Move at your pace
           </h3>
-          <p className='font-noto text-[18px] text-[#00000099]'>
+          <p className='font-noto text-[18px] text-black40'>
             Empower your team for free. Upgrade to
             get more of my attention.{' '}
           </p>
@@ -44,16 +44,16 @@ export default function PricePackages() {
           <div className='relative'>
             {activeTab === 'individual' && (
               <div className='grid grid-cols-3 gap-5 pt-14 sm:grid-cols-1'>
-                <div className='rounded-[32px] border-[1px] bg-[#f5b8991a] py-12 px-7 flex flex-col gap-1'>
+                <div className='rounded-[32px] border-[1px] bg-WhiteSmoke py-12 px-7 flex flex-col gap-1'>
                   <h4 className='text-primary text-[24px] font-sora font-semibold'>
                     Free
                   </h4>
-                  <p className='font-noto text-[16px] text-[#00000099]'>
+                  <p className='font-noto text-[16px] text-black40'>
                     Try Pale
                   </p>
                   <p className='text-3xl font-sora font-bold text-primary pt-5'>
                     $0{' '}
-                    <span className='text-[12px] font-noto text-[#00000099]'>
+                    <span className='text-[12px] font-noto text-black40'>
                       / month billed annually
                     </span>
                   </p>
@@ -64,22 +64,22 @@ export default function PricePackages() {
                     }
                     target='_blank'
                   >
-                    <Button className='mt-6 w-full !text-[#2D0F00] bg-white border-[1px] border-[#E5E5E5] py-3 font-sora font-semibold text-[15px] shadow-sm hover:!text-white'>
+                    <Button className='mt-6 w-full !text-textcolor bg-white border-[1px] py-3 font-sora font-semibold text-[15px] shadow-sm hover:!text-white'>
                       Get a Free Plan
                     </Button>
                   </a>
                   <ul className='mt-6 space-y-3 text-darktext'>
-                    <li className='flex items-center gap-2 text-[14px] font-noto text-[#00000099]'>
+                    <li className='flex items-center gap-2 text-[14px] font-noto text-black40'>
                       <img
-                        src='/checkicon.svg'
-                        alt=''
+                        src='/CheckIcon.svg'
+                        alt='Check Icon'
                       />
                       One-click integrations
                     </li>
-                    <li className='flex items-center gap-2 text-[14px] font-noto text-[#00000099]'>
+                    <li className='flex items-center gap-2 text-[14px] font-noto text-black40'>
                       <img
-                        src='/checkicon.svg'
-                        alt=''
+                        src='/CheckIcon.svg'
+                        alt='Check Icon'
                       />
                       Connect any tool through
                       remote MCP
@@ -87,16 +87,16 @@ export default function PricePackages() {
                   </ul>
                 </div>
                 <div className='rounded-[32px] bg-gradient-to-r from-[#EFB293] to-[#F1B697] flex flex-col gap-1 p-[5px]'>
-                  <div className='bg-white py-12 px-7 flex flex-col gap-1 h-full rounded-[32px] border-[2px] border-[#2D0F00]'>
+                  <div className='bg-white py-12 px-7 flex flex-col gap-1 h-full rounded-[32px] border-[2px] border-textcolor'>
                     <h4 className='text-primary text-[24px] font-sora font-semibold'>
                       Pro
                     </h4>
-                    <p className='font-noto text-[16px] text-[#00000099]'>
+                    <p className='font-noto text-[16px] text-black40'>
                       For everyday productivity
                     </p>
                     <p className='text-3xl font-sora font-bold text-primary pt-5'>
                       $25{' '}
-                      <span className='text-[12px] font-noto text-[#00000099]'>
+                      <span className='text-[12px] font-noto text-black40'>
                         / month billed annually
                       </span>
                     </p>
@@ -107,22 +107,22 @@ export default function PricePackages() {
                       }
                       target='_blank'
                     >
-                      <Button className='mt-6 w-full !text-[#2D0F00] !bg-[#FDC7AF] hover:!bg-primary border-[1px] border-[#E5E5E5] py-3 font-sora font-semibold text-[15px] shadow-sm hover:!text-white'>
+                      <Button className='mt-6 w-full !text-textcolor !bg-accent hover:!bg-primary border-[1px] border-Gray90 py-3 font-sora font-semibold text-[15px] shadow-sm hover:!text-white'>
                         Get a Pro Plan
                       </Button>
                     </a>
                     <ul className='mt-6 space-y-3 text-darktext'>
-                      <li className='flex items-center gap-2 text-[14px] font-noto text-[#00000099]'>
+                      <li className='flex items-center gap-2 text-[14px] font-noto text-black40'>
                         <img
-                          src='/checkicon.svg'
-                          alt=''
+                          src='/CheckIcon.svg'
+                          alt='Check Icon'
                         />
                         More usage
                       </li>
-                      <li className='flex items-center gap-2 text-[14px] font-noto text-[#00000099]'>
+                      <li className='flex items-center gap-2 text-[14px] font-noto text-black40'>
                         <img
-                          src='/checkicon.svg'
-                          alt=''
+                          src='/CheckIcon.svg'
+                          alt='Check Icon'
                         />
                         Ability to use more LLM
                         models
@@ -130,16 +130,16 @@ export default function PricePackages() {
                     </ul>
                   </div>
                 </div>
-                <div className='rounded-[32px] border-[1px] bg-[#f5b8991a] py-12 px-7 flex flex-col gap-1'>
+                <div className='rounded-[32px] border-[1px] bg-WhiteSmoke py-12 px-7 flex flex-col gap-1'>
                   <h4 className='text-primary text-[24px] font-sora font-semibold'>
                     Max
                   </h4>
-                  <p className='font-noto text-[16px] text-[#00000099]'>
+                  <p className='font-noto text-[16px] text-black40'>
                     5-20x more usage than Pro
                   </p>
                   <p className='text-3xl font-sora font-bold text-primary pt-5'>
                     From $100{' '}
-                    <span className='text-[12px] font-noto text-[#00000099]'>
+                    <span className='text-[12px] font-noto text-black40'>
                       / month billed annually
                     </span>
                   </p>
@@ -150,39 +150,39 @@ export default function PricePackages() {
                     }
                     target='_blank'
                   >
-                    <Button className='mt-6 w-full !text-[#2D0F00] bg-white border-[1px] border-[#E5E5E5] py-3 font-sora font-semibold text-[15px] shadow-sm hover:!text-white'>
+                    <Button className='mt-6 w-full !text-textcolor bg-white border-[1px] border-Gray90 py-3 font-sora font-semibold text-[15px] shadow-sm hover:!text-white'>
                       Get Max Plan
                     </Button>
                   </a>
                   <ul className='mt-6 space-y-3 text-darktext'>
-                    <li className='flex items-center gap-2 text-[14px] font-noto text-[#00000099]'>
+                    <li className='flex items-center gap-2 text-[14px] font-noto text-black40'>
                       <img
-                        src='/checkicon.svg'
-                        alt=''
+                        src='/CheckIcon.svg'
+                        alt='Check Icon'
                       />
                       Choose 5x or 20x more usage
                       than Pro
                     </li>
-                    <li className='flex items-center gap-2 text-[14px] font-noto text-[#00000099]'>
+                    <li className='flex items-center gap-2 text-[14px] font-noto text-black40'>
                       <img
-                        src='/checkicon.svg'
-                        alt=''
+                        src='/CheckIcon.svg'
+                        alt='Check Icon'
                       />
                       Higher output limits for all
                       tasks
                     </li>
-                    <li className='flex items-center gap-2 text-[14px] font-noto text-[#00000099]'>
+                    <li className='flex items-center gap-2 text-[14px] font-noto text-black40'>
                       <img
-                        src='/checkicon.svg'
-                        alt=''
+                        src='/CheckIcon.svg'
+                        alt='Check Icon'
                       />
                       Early access to advanced
                       features
                     </li>
-                    <li className='flex items-center gap-2 text-[14px] font-noto text-[#00000099]'>
+                    <li className='flex items-center gap-2 text-[14px] font-noto text-black40'>
                       <img
-                        src='/checkicon.svg'
-                        alt=''
+                        src='/CheckIcon.svg'
+                        alt='Check Icon'
                       />
                       Priority access at high
                       traffic times
@@ -200,7 +200,7 @@ export default function PricePackages() {
             )}
           </div>
         </div>
-        <p className='pt-5 text-center font-noto text-[18px] text-[#00000099]'>
+        <p className='pt-5 text-center font-noto text-[18px] text-black40'>
           Prices shown do not include applicable
           tax. *
           <a

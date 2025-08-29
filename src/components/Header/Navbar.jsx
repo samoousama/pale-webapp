@@ -16,7 +16,7 @@ export default function Header() {
     <header className="bg-white shadow-sm">
       <div className="container mx-auto flex items-center justify-between py-4">
         <Link to="/" className="text-2xl font-bold text-blue-600">
-          <img src="/logo.svg" alt="Logo" className="h-8 w-auto" />
+          <img src="/Logo.svg" alt="Logo" className="h-8 w-auto" />
         </Link>
         <nav className="sm:flex space-x-6 sm:hidden">
           <Link to="#features" onClick={() => handleScroll("features")} className="text-primary font-Sora text-[16px] font-normal hover:text-accent">Features</Link>

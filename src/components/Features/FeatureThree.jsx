@@ -8,73 +8,73 @@ export default function FeatureThree(){
             <div className='flex flex-col gap-2'>
                 <span className='max-w-[110px] text-center font-sora text-[14px] bg-bgdark text-white py-[4px] px-[16px] rounded-full'>FEATURE 3</span>
                 <h3 className='text-primary sm:text-[36px]'>Stay on course</h3>
-                <p className='font-noto text-[18px] text-[#00000099] pt-2'>With the 'Ask' permission you take command. <br/> I ask for permission, never for forgiveness. </p> 
+                <p className='font-noto text-[18px] text-black40 pt-2'>With the 'Ask' permission you take command. <br/> I ask for permission, never for forgiveness. </p> 
             </div>          
             <div className="py-10 flex flex-col gap-10">
                 <div className='flex items-center gap-4'>
-                    <img src="/reveal-icon.svg"/>      
+                    <img src="/RevealIcon.svg" alt="Reveal Icon"/>      
                     <div className="relative">
                         <span className="flex items-center font-sora text-[18px] gap-1 font-normal">Raise the curtain</span>
-                        <p className="font-noto text-[16px] text-[#00000099]">Reveal the request parameters.</p>
+                        <p className="font-noto text-[16px] text-black40">Reveal the request parameters.</p>
                     </div>
                 </div>      
                 <div className='flex items-center gap-4'>
-                    <img src="/skip-icon.svg"/>      
+                    <img src="/SkipIcon.svg" alt="Skip Icon"/>      
                     <div className="relative">
                         <span className="flex items-center font-sora text-[18px] gap-1 font-normal">Run or Skip</span>
-                        <p className="font-noto text-[16px] text-[#00000099]">To make sure we're on the same track.</p>
+                        <p className="font-noto text-[16px] text-black40">To make sure we're on the same track.</p>
                     </div>
                 </div>                           
             </div>      
         </div>
         <div className='relative pb-20'>
-            <p className="font-noto text-[18px] text-[#00000099] px-2 pb-4 md:text-[14px]">Let me check your current Jira tickets...</p>
-            <div className='min-w-[500px] sm:min-w-[100%] md:min-w-[100%] mx-auto bg-[#ffffff66] py-4 border-[1px] border-[#fff] px-5 rounded-[32px] flex flex-col backdrop-blur-sm relative'>
-              <div className="absolute w-full h-full bg-[#0000000f] rounded-[32px] top-0 left-0"></div>  
+            <p className="font-noto text-[18px] text-black40 px-2 pb-4 md:text-[14px]">Let me check your current Jira tickets...</p>
+            <div className='min-w-[500px] sm:min-w-[100%] md:min-w-[100%] mx-auto bg-white40 py-4 border-[1px] border-white px-5 rounded-[32px] flex flex-col backdrop-blur-sm relative'>
+              <div className="absolute w-full h-full bg-black6 rounded-[32px] top-0 left-0"></div>  
               <div className="flex justify-between items-center">
-                <p className="font-sora text-[16px] text-[#121212] font-normal md:text-[14px]">Calling list-tickets@Jira</p>
-                <a href="" className="font-sora text-[13px] text-[#00000080] font-normal flex items-center gap-1 sm:text-[12px] md:text-[13px]">Request json <img src="/arrowup.svg"/></a>
+                <p className="font-sora text-[16px] text-chineseBlack font-normal md:text-[14px]">Calling list-tickets@Jira</p>
+                <a href="" className="font-sora text-[13px] text-black50 font-normal flex items-center gap-1 sm:text-[12px] md:text-[13px]">Request json <img src="/ArrowUp.svg" alt="Arrow Up"/></a>
               </div>
               <div className="pt-7">
-                <strong className="font-semibold font-sora text-[#141414] md:text-[14px]">Request</strong>
-                <div className="bg-[#EFEFEF] h-[150px] rounded-[14px] my-[8px] mt-[5px]">
-                  <div className="font-sora text-black font-normal text-[11px] bg-[#DCDCDC] w-[41px] py-[2px] px-[8px] text-center rounded-tl-[4px] rounded-br-[4px]">
+                <strong className="font-semibold font-sora text-hexgray8 md:text-[14px]">Request</strong>
+                <div className="bg-grayscale h-[150px] rounded-[14px] my-[8px] mt-[5px]">
+                  <div className="font-sora text-black font-normal text-[11px] bg-gainsboro w-[41px] py-[2px] px-[8px] text-center rounded-tl-[4px] rounded-br-[4px]">
                     json
                   </div>
                   <div className="py-4 px-6">
-                    <span className="text-[#53B559] text-[15px] font-mono">&#123;</span>
+                    <span className="text-darkgrayish text-[15px] font-mono">&#123;</span>
                     <div className="px-4">
-                      <p className="text-[#53B559] text-[15px] font-mono">"limit" <span className="text-[#2E89FF] pr-1">:</span> <span className="text-[#E6755D]">10</span>,</p>
-                      <p className="text-[#53B559] text-[15px] font-mono">"orderBy" <span className="text-[#2E89FF] pr-1">:</span> <span className="text-[#E6755D]">updatedAt</span></p>
+                      <p className="text-darkgrayish text-[15px] font-mono">"limit" <span className="text-[#2E89FF] pr-1">:</span> <span className="text-[#E6755D]">10</span>,</p>
+                      <p className="text-darkgrayish text-[15px] font-mono">"orderBy" <span className="text-[#2E89FF] pr-1">:</span> <span className="text-[#E6755D]">updatedAt</span></p>
                     </div>
-                    <span className="text-[#53B559] text-[15px] font-mono">&#125;</span>
+                    <span className="text-darkgrayish text-[15px] font-mono">&#125;</span>
                   </div>
                 </div>
               </div>
               <div className="flex justify-between items-center sm:gap-2">
                 <div className="relative md:mt-[10px]">
                   <div className="flex items-center bg-[#f0f0f0] px-5 py-2 rounded-[12px] gap-3 text-[15px] sm:text-[14px] sm:mt-[8px] md:text-[14px] border-[0.5px] border-white">
-                    Always Ask <img src="/arrowdown.svg" />
+                    Always Ask <img src="/ArrowDown.svg" alt="Arrow Down" />
                   </div>
-                  <div className="bg-[#ffffff66] py-2 border-[1px] border-[#fff] px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px] md:w-[230px] md:mt-[10px] backdrop-blur-sm shadow-[0px_26px_36px_0px_rgba(0,_0,_2,_0.15)]">
-                    <div className="absolute w-full h-full bg-[#0000000f] rounded-[12px] top-0 left-0"></div>  
+                  <div className="bg-white40 py-2 border-[1px] border-white px-2 rounded-[12px] absolute w-[310px] mt-1 sm:w-[250px] md:w-[230px] md:mt-[10px] backdrop-blur-sm shadow-[0px_26px_36px_0px_rgba(0,_0,_2,_0.15)]">
+                    <div className="absolute w-full h-full bg-black6 rounded-[12px] top-0 left-0"></div>  
                     <div className="bg-white rounded-[8px] py-2 px-3 flex gap-[2px] items-center justify-between relative">
                       <div>
                         <h4 className="text-primary font-normal text-[14px] font-sora">Always Ask </h4>
-                        <p className="text-[13px] font-normal font-sora text-[#00000080]">Your approval is required every time</p>
+                        <p className="text-[13px] font-normal font-sora text-black50">Your approval is required every time</p>
                       </div>
-                      <img src="/checkicon.svg" />
+                      <img src="/CheckIcon.svg" alt="Check" />
                     </div>
                     <div className="bg-white rounded-[8px] py-2 px-3 flex gap-[2px] items-center justify-between mt-2 relative">
                       <div>
                         <h4 className="text-primary font-normal text-[14px] font-sora">Always Allow </h4>
-                        <p className="text-[13px] font-normal font-sora text-[#00000080]">Your approval is not required</p>
+                        <p className="text-[13px] font-normal font-sora text-black50">Your approval is not required</p>
                       </div>
                     </div>
                   </div>
                 </div>    
                 <div className="flex gap-4 pt-2">
-                  <Button className="!rounded-[12px] !bg-[#ffffff66] !text-primary !text-[15px] shadow-md md:!text-[12px] !px-[16px] !py-[7px] border-[0.5px] border-white">Skip</Button>  
+                  <Button className="!rounded-[12px] !bg-white40 !text-primary !text-[15px] shadow-md md:!text-[12px] !px-[16px] !py-[7px] border-[0.5px] border-white">Skip</Button>  
                   <Button className="!bg-accent !rounded-[13px] !text-primary hover:!text-white !text-[15px] shadow-md !px-[16px] !py-[7px] md:!text-[12px]">Run</Button>  
                 </div>    
               </div>

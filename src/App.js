@@ -5,18 +5,18 @@ import Header from './components/Header/Navbar';
 import Button from "./components/Button/Button";
 
 import Fearures from "./components/Features/Features"
-import AboutMe from './components/Carousel/AboutMe';
 import PricePackages from './components/Pricing/PricingPackages';
 import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer/Footer';
+import ChatInput from "./components/ChatInput/ChatCard";
 
 export const SIGNUP_FORM_LINK = "https://2fdzq6.share-eu1.hsforms.com/2pm4BhnAMQDSLDUgaF_OnAg"
 
 function App() {
    const icons = [
-    "icon324.svg","github.svg","Vector10.svg","Microsoft_Azure1.svg",
-    "Amazon_icon.svg","googlecloud.svg","firebase.svg","googleanalytics.svg",
-    "snapchat.svg","linearIcon.svg","clickup1.svg","Frame30934.svg","Vectors21.svg",
+    "McpIcon.svg","Github.svg","Supabase.svg","MicrosoftAzure.svg",
+    "AmazonIcon.svg","GoogleCloud.svg","Firebase.svg","GoogleAnalytics.svg",
+    "Snapchat.svg","LinearIcon.svg","ClickUp.svg","MegaMenu.svg","NotionIcon.svg",
   ];
   return (
     <div>
@@ -24,15 +24,16 @@ function App() {
       <div className="bg-herobanner bg-cover bg-center relative py-5 text-center pt-20 pb-0">
         <div className='container max-auto'>
           <div className='flex-inline flex-col text-center '>
-            <div className='inline-flex items-center justify-center bg-[#f5b89966] rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4 sm:mb-1'>
+            <div className='inline-flex items-center justify-center bg-primary40 rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4 sm:mb-1'>
               <img 
-                  src='/emoji.svg'
+                  src='/EmojiIcon.svg'
+                  alt="Emoji Icon"
                   className='relative top-[5px]'
               />
               It's Pale here!
             </div>
             <h3 className='text-center text-primary sm:text-[24px] sm:leading-[33px]'>You allow the actions - I do the work</h3>
-            <p className='font-noto text-[23px] text-[#00000099] sm:text-[15px]'>AI agents without worries.</p>
+            <p className='font-noto text-[23px] text-black40 sm:text-[15px]'>AI agents without worries.</p>
             <a href={SIGNUP_FORM_LINK} target="_blank">
               <Button variant="primary" className="py-[16px] px-[32px] mt-5">
                   Sign up to waitlist
@@ -40,22 +41,8 @@ function App() {
             </a>
           </div>  
           <div className='text-center mx-auto inline-flex flex-col justify-center pt-24'>
-            <div className='min-w-[645px] sm:min-w-[100%] mx-auto bg-[#ffffff66] py-5 border-[0.5px] px-5 rounded-[32px] border-white justify-between flex flex-col min-h-[150px] relative overflow-hidden backdrop-blur-sm shadow-lg'>
-             <div className="absolute w-full h-full bg-[#0000000f] top-0 left-0"></div>
-              <div className='w-full py-2 placeholder-black text-left bg-transparent border-transparent focus:border-transparent focus:ring-0 outline-none relative resize-none'>Create a draft pull request on <b>@GitHub</b> for my ticket on <b>@Jira</b></div>
-              <div className='flex justify-between items-center sm:gap-2'>
-                <div className='flex items-center gap-3 relative'>
-                  <img src='/attherat.svg' />
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'><img src='/github-icon.svg' className="sm:h-[16px]" />GitHub <img src='/cross-icon.svg'/></Button>
-                  <Button className='flex gap-1 !bg-[#d9d9d966] !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'><img src='/jira-icon.svg' className="sm:h-[16px]" />Jira <img src='/cross-icon.svg'/></Button>
-                </div>
-                <div className='flex justify-between items-center gap-4 sm:gap-1'>
-                  <img src='/signIcon.svg' alt='' className='h-[16px]' />
-                  <Button className='w-[35px] h-[35px] !p-0 !flex !items-center !text-center justify-center !rounded-[100px]'><img src='/buttonArrow.svg' /></Button>
-                </div>
-              </div>
-            </div>
-            <img src='/hero-img.svg' />
+            <ChatInput/>
+            <img src='/HeroImg.svg' alt="Hero Img" />
           </div>
         </div>
       </div>
@@ -66,7 +53,8 @@ function App() {
           <div className='bg-texturebg bg-cover rounded-[24px] py-16 text-center'>
             <div className='inline-flex items-center justify-center bg-[#ffffff80] rounded-full font-sora text-[16px] text-darktext mx-auto relative px-[1px] pr-4'>
               <img 
-                  src='/emoji.svg'
+                  src='/EmojiIcon.svg'
+                  alt="Emoji Icon"
                   className='relative top-[5px]'
               />
               Hook me up without headache
@@ -81,7 +69,7 @@ function App() {
                     key={`a-${i}`}
                     className="bg-white w-[60px] h-[60px] rounded-full border border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125"
                   >
-                    <img src={`/app-icon/${icon}`} alt="" />
+                    <img src={`/app-icon/${icon}`} alt="Icon" />
                   </div>
                 ))}
                 {icons.map((icon, i) => (
@@ -90,7 +78,7 @@ function App() {
                     className="bg-white w-[60px] h-[60px] rounded-full border border-[#0505051a] flex justify-center items-center overflow-hidden transition duration-700 ease-in-out hover:scale-125"
                     aria-hidden="true"
                   >
-                    <img src={`/app-icon/${icon}`} alt="" />
+                    <img src={`/app-icon/${icon}`} alt="Icon" />
                   </div>
                 ))}
               </div>

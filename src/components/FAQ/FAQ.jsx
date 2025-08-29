@@ -13,15 +13,15 @@ const faqs = [
 export default function FAQ(){
     const [openIndex, setOpenIndex] = useState(null);
     return(
-        <div className="bg-white py-16 border-t-[1px] border-[#0000001a] border-b-[1px]" id="faq">
+        <div className="bg-white py-16 border-t-[1px] border-black10 border-b-[1px]" id="faq">
           <div className="container">
             <h3 className="text-center sm:text-[36px] sm:leading-[40px]">Other users asked me this</h3>
             <div className="grid grid-cols-3 pt-10 max-w-[973px] mx-auto gap-20 sm:grid-cols-1 sm:max-w-[100%] sm:justify-center sm:text-center sm:gap-5">
               <div className="relative sm:text-center">
                 <strong className="text-primary font-sora text-[32px] font-medium max-w-[150px] sm:max-w-full block leading-[40px]">Still have questions?</strong>
-                <p className="font-noto text-[18px] text-[#00000099] pt-3">Reach out to my founders anytime.</p>
+                <p className="font-noto text-[18px] text-black40 pt-3">Reach out to my founders anytime.</p>
                  <a href={SIGNUP_FORM_LINK} target="_blank">
-                  <Button className="mt-6 w-full !text-[#2D0F00] !bg-[#FDC7AF] hover:!bg-primary py-2 font-sora font-semibold text-[15px] shadow-sm mt-10 max-w-[150px] !px-[25px] flex items-center justify-center gap-1 hover:!text-white group sm:justify-center sm:items-center sm:mx-auto sm:mt-5 py-[12px] relative z-40">
+                  <Button className="mt-6 w-full !text-textcolor !bg-accent hover:!bg-primary py-2 font-sora font-semibold text-[15px] shadow-sm mt-10 max-w-[150px] !px-[25px] flex items-center justify-center gap-1 hover:!text-white group sm:justify-center sm:items-center sm:mx-auto sm:mt-5 py-[12px] relative z-40">
                     Let's talk <img src="/arrowIcon.svg" alt="Arrow" className="group-hover:invert"/>
                   </Button>
                 </a>
@@ -30,20 +30,20 @@ export default function FAQ(){
                <div className="w-full mx-auto relative z-40">
                 <div className="space-y-3">
                     {faqs.map((faq, idx) => (
-                    <div key={idx} className="border-b border-[#E5E5E5] pb-3">
+                    <div key={idx} className="border-b border-Gray90 pb-3">
                         <button
-                            className="flex justify-between items-center w-full text-left text-[18px] font-noto text-[#00000099] py-2"
+                            className="flex justify-between items-center w-full text-left text-[18px] font-noto text-black40 py-2"
                             onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
                         >
-                        <span className="font-normal text-[18px] font-noto text-[#00000099]">{faq.question}</span>
+                        <span className="font-normal text-[18px] font-noto text-black40">{faq.question}</span>
                         {openIndex === idx ? (
-                            <img src="/arrowdown.svg" alt="up" className="w-5 h-5" />
+                            <img src="/ArrowDown.svg" alt="Down" className="w-5 h-5" />
                         ) : (
-                            <img src="/arrowup.svg" alt="down" className="w-5 h-5" />
+                            <img src="/ArrowUp.svg" alt="Up" className="w-5 h-5" />
                         )}
                         </button>
                         {openIndex === idx && (
-                            <p className="mt-2 text-[16px] font-noto font-normal text-[#000000]">{faq.answer}</p>
+                            <p className="mt-2 text-[16px] font-noto font-normal text-black">{faq.answer}</p>
                         )}
                     </div>
                     ))}
