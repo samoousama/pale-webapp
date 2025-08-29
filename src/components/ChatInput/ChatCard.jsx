@@ -141,3 +141,4 @@ import Button from "../Button/Button";
 }
 
 export default ChatInput;
+
