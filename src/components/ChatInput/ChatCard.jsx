@@ -1,13 +1,12 @@
 import { useState } from "react";
 import Button from "../Button/Button";
-
-function ChatInput({ 
-  placeholderText = <>Create a draft pull request on <b>@GitHub</b> for my ticket on <b>@Jira</b></>,
-  showDropdown = false,
-  showSuggest = false,
-  className = "" 
-}) {
-
+  function ChatInput({ 
+    placeholderText = <>Create a draft pull request on <b>@GitHub</b> for my ticket on <b>@Jira</b></>,
+    showDropdown = false,
+    showSuggest = false,
+    className = "" 
+  }) {
+  const [active, setActive] = useState("github"); 
   return (
     <>
       {showDropdown && (
@@ -56,20 +55,27 @@ function ChatInput({
           {placeholderText}
         </div>
         <div className='flex justify-between items-center sm:gap-2'>
-          <div className='flex items-center gap-3 relative'>
-            <img src='/Attherat.svg' alt="@ icon" />
-            <Button className='flex gap-1 !bg-gray40 !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'>
-              <img src='/GithubIcon.svg' className="sm:h-[16px]" alt="GitHub icon" />GitHub <img src='/CrossIcon.svg' alt="Cross icon"/>
-            </Button>
-            <Button className='flex gap-1 !bg-gray40 !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'>
-              <img src='/JiraIcon.svg' className="sm:h-[16px]" alt="Jira icon" />Jira <img src='/CrossIcon.svg' alt="Cross icon"/>
-            </Button>
+          <div className="flex items-center gap-3 relative">
+              <img src='/Attherat.svg' alt="@ icon" />
+              <Button 
+                className={`
+                  flex gap-1 !bg-gray40 !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]
+                  [_.active-group_&]:!bg-[#f0f0f0]
+                `}
+              >
+                <img src='/GithubIcon.svg' className="sm:h-[16px]" alt="GitHub icon" /> GitHub 
+                <img src='/CrossIcon.svg' alt="Cross icon"/>
+              </Button>
+              <Button className='flex gap-1 !bg-gray40 !text-primary border-[1px] border-white px-[5px] pr-[15px] py-[5px] items-center shadow-lg hover:!translate-y-[0px] sm:!text-[12px]'>
+                <img src='/JiraIcon.svg' className="sm:h-[16px]" alt="Jira icon" /> Jira 
+                <img src='/CrossIcon.svg' alt="Cross icon"/>
+              </Button>
           </div>
           <div className='flex justify-between items-center gap-4 sm:gap-1'>
-            <img src='/signIcon.svg' className='h-[16px]' alt="Signature icon" />
-            <Button className='w-[35px] h-[35px] !p-0 !flex !items-center !text-center justify-center !rounded-[100px]'>
-              <img src='/buttonArrow.svg' alt="Button Arrow" />
-            </Button>
+              <img src='/signIcon.svg' className='h-[16px]' alt="Signature icon" />
+              <Button className='w-[35px] h-[35px] !p-0 !flex !items-center !text-center justify-center !rounded-[100px]'>
+                <img src='/buttonArrow.svg' alt="Button Arrow" />
+              </Button>
           </div>
         </div>
       </div>
